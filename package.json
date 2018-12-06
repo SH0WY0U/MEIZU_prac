@@ -18,5 +18,8 @@
   "homepage": "https://github.com/SH0WY0U/MEIZU_prac#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
