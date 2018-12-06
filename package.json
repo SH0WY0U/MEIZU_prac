@@ -1,0 +1,22 @@
+{
+  "name": "meizu_prac",
+  "version": "1.0.0",
+  "description": "practice a web program just like meizu.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SH0WY0U/MEIZU_prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SH0WY0U/MEIZU_prac/issues"
+  },
+  "homepage": "https://github.com/SH0WY0U/MEIZU_prac#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
