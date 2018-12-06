@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/cl/zhuce.css"/>
+	</head>
+	<body>
+	<div class="head">
+		<div class="bander">
+			<div class="boox">
+				<div class="logo"><img src="../../images/cl/cl-img/logo.jpg"></div>
+			</div>
+			<div class="banjin">
+				<div class="banke">
+					<form action="/php/cl/register.php" method="post">
+					<div class="zhucezhanhao">注册Flyme账号</div>
+			                <div class="yonghumi"> 用户名：<input id="uname" type="text" name="uname" /></div>
+			                <div class="mima"> 密码:<input type="password" id="upwd" /></div>
+			                <div class="klio">点击立即注册，即表示您同yi遵守 Flyme服务协</div>
+					        <div class="nmb">议<em>和</em>法律声明</div>
+			               <div class="liji"> <input id="sub" type="submit" value="立即注册" disabled="disabled"/></div>
+					<div class="denlisa">登录</div>
+		            </form>
+				</div>
+			</div>
+			<div class="hedad">
+				<div class="ganyu">关于魅族 | 工作机会 | 联系我们 | 法律声明 | 常见问题 | 简体中文</div>
+				<div class="kefu">客服热线</div>
+				<div class="shuzi">400-788-3333</div>
+				<div class="zaixian">在线客服</div>
+				<div class="xinnang"></div>
+				<div class="wenxi"></div>
+				<div class="kongjian"></div>
+				<p class="foot-bbo">&copy;2018 Meizu Telecom Equipment Co,Ltd.All rights reserved,备案号：ICP备13003602号-4 经营许可证编号：B2-20130198 营业执照</p>
+			</div>
+			
+		</div>
+	</div>
+	</body>
+</html>
+<script src="../../js/cl/jquery.min.js"></script>
+<script type="text/javascript">
+	var uname = document.getElementById("uname");
+	var sub = document.getElementById("sub");
+	//用户名唯一验证
+	uname.onblur = function() {
+		//		ajax({
+		//			method:"get",
+		//			url:"unameCheck.php",
+		//			data:{
+		//				uname : this.value
+		//			},
+		//			success:function(res){
+		//				//用户名存在 ok
+		//				if(res == "ok"){
+		//					alert("用户名已存在");
+		//					sub.setAttribute("disabled","disabled");
+		//				}else if(res == "no"){
+		//					//用户名不存在 no
+		//					alert("可用");
+		//					//让submit按钮启用点击功能
+		//					sub.removeAttribute("disabled");
+		//				}
+		//			}
+		//		});
+		$.ajax({
+			type: "get",
+			url: "../../php/cl/unameCheck.php",
+			data: {
+				uname: this.value
+			},
+			success: function(res) {
+				//用户名存在 ok
+				console.log(res)
+				if(res == "ok") {
+					alert("用户名已存在");
+					sub.setAttribute("disabled", "disabled");
+				} else if(res == "no") {
+					//用户名不存在 no
+					alert("输入正确");
+					//让submit按钮启用点击功能
+					sub.removeAttribute("disabled");
+				}
+			}
+		});
+		console.log(1)
+	}
+</script>
