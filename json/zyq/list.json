@@ -8,7 +8,7 @@
         "goods_storage": [
             "4+64GB"
         ],
-        "show-image": "images/zyq/area01.jpg"
+        "show_image": "images/zyq/area01.jpg"
     },
     {
         "goods_id": 1,

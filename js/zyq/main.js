@@ -52,31 +52,37 @@ swiper.init('.client')
 // 商品展示渲染
 var insertListData = (function () {
     return {
-        init(ele, url) {
+        init(ele, dataUrl, targetUrl) {
             this.goods = $(ele);
-            this.goodsImg = $(ele + ' img');
-            this.goodsName = $(ele + ' span:nth-type-of(1)');
-            this.goodsTag = $(ele + ' span:nth-type-of(2)');
-            this.goodsPrice = $(ele + ' span:nth-type-of(2)');
-            this.getData(url);
+            // this.goodsImg = $(ele + ' img');
+            // this.goodsName = $(ele + ' span:nth-type-of(1)');
+            // this.goodsTag = $(ele + ' span:nth-type-of(2)');
+            // this.goodsPrice = $(ele + ' span:nth-type-of(2)');
+            // this.targetUrl = targetUrl;
+            this.getData(dataUrl, targetUrl);
+
 
         },
-        getData(url) {
-            $.get(url, function (res) {
+        getData(dataUrl, targetUrl) {
+            $.get(dataUrl, (res) => {
                 console.log(res);
+                this.insertData(res, targetUrl);
             })
         },
-        insertData(data) {
-            this.goods.each(function () {
-                if (this.children('span')) {
-                    this.children('span').each(function () {
-
-                    })
-
+        insertData(data, targetUrl) {
+            for (var i = 0; i < this.goods.length; i++) {
+                if (data[i]["show_image"]) {
+                    this.goods.eq(i).children('img').attr('src', data[i]["show_image"]);
+                } else {
+                    this.goods.eq(i).children('img').attr('src', data[i]["goods_image"]);
+                    this.goods.eq(i).children('.goods_name').html(data[i]["goods_name"]);
+                    this.goods.eq(i).children('.goods_tag').html(data[i]["goods_tag"]);
+                    this.goods.eq(i).children('.goods_price').html('<i>￥</i>' + data[i]["goods_price"]);
                 }
-            })
+                this.goods.eq(i).attr('href', targetUrl + '?' + 'goods_id=' + data[i]["goods_id"]);
+            }
         }
     }
 }())
 
-insertListData.init('.goods_box', 'json/zyq/list.json')
+insertListData.init('.goods_box', 'json/zyq/list.json', 'php/zyq/goods_info.php')
