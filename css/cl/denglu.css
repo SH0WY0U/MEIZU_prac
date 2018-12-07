@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+
+}
+img {
+    display: block;
+}
+a {
+    text-decoration:  none;
+    color: #fff;
+}
+.head{
+	width:1310px ;
+	/*background:red;*/
+	margin: 0 auto;
+}
+.bander{
+	width:1310px ;
+	height:66px ;
+	/*background:pink;*/
+	margin:0 auto;
+	
+}
+.boox{
+	width:1310px ;
+	height:66px ;
+	/*background:pink;*/
+	float: left;
+}
+.logo{
+   width:110px ;
+   height:19px ;
+   /*background:yellow ;*/
+   float: left;
+   margin-left:61px;
+   margin-top:28px;
+}
+.banjin{
+	width:1310px ;
+	height:751px ;
+	background:url(../../images/cl/cl-img/zhuce_02.jpg);
+	float: left;
+}
+
+
+.nav-right{
+	width:368px;
+	height:520px;
+	background:white ;
+	float: left;
+	margin-top:100px;
+	margin-left:760px ;
+}
+ 
+ 
+.shouji-right{
+	width:35px ;
+	height:74px ;
+	background:url(../../images/cl/cl-img/shoji_03.jpg);
+	float:right;
+}
+.zhanghao{
+	width:369px ;
+	height:18px ;
+	/*background:red;*/
+	float:right;
+	text-align: center;
+}
+
+.bander-left{
+	width:73px;
+	height:18px;
+	/*background:red ;*/
+	float:left;
+	margin-left:67px;
+	font-size: 18px;
+	color: #46ADEB;
+	line-height:18px;
+}
+.zhongjian{
+	width:39px;
+	height:18px;
+	float: left;
+	text-align: center;
+	line-height: 10px;
+	/*background: blue;*/
+	border-right:2px solid black;
+}
+.right{
+	width:91px;
+	height:18px ;
+	/*background:blue;*/
+	float: left;
+	margin-left: 37px;
+	text-align:center;
+    line-height:18px;
+    color:#878787 ;
+}
+
+.yonghumingchen{
+	width:299px ;
+	height:48px ;
+	background:pink;
+	float: left;
+	margin-top: 74px;
+	margin-left:35px;
+}
+
+#uname{
+	width:299px;
+	height:48px;
+	float:left ;
+}
+.bonp{
+	width:299px ;
+	height:44px ;
+	background:url(../../images/cl/cl-img/dianji_03.jpg);
+	float:left;
+	margin-top:23px ;
+	margin-left:35px ;
+	
+}
+
+.mimadenglu{
+	width:299px ;
+	height:47px ;
+	background:pink;
+	float: left;
+    margin-top:22px;
+	margin-left:35px;
+	
+}
+
+#password-we{
+	width:299px ;
+	height:47px ;
+	float: left;
+	
+}
+
+
+
+.denglu{
+	width:299px ;
+	height:48px ;
+	background:pink;
+	float: left;
+    margin-top:69px;
+	margin-left:35px;
+}
+
+#sub{
+	width:299px ;
+	height:48px ;
+	float: left;
+	background:#32A5E7 ;
+}
+
+
+
+
+.left-nbo{
+	width:29px ;
+	height:14px ;
+	/*background:red ;*/
+	float: left;
+	margin-top:14px;
+	margin-left:35px;
+	text-align: center;
+	line-height:14px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000FF ;
+}
+.right-nji{
+	width:64px;
+	height:14px;
+	/*background:cyan ;*/
+	float: left;
+	margin-top:14px;
+	margin-left:208px;
+	line-height:14px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000FF;
+}
+
+
+
+
+
+.hedad{
+	width:1348px ;
+	height:131px ;
+	float: left;
+	/*background:cyan;*/
+}
+.ganyu{
+	width:447px ;
+	height:32px ;
+	float: left;
+	/*background:yellowgreen ;*/
+	margin-top:35px;
+	margin-left:175px ;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+}
+.kefu{
+	width:58px;
+	height:32px ;
+	/*background:red ;*/
+	float: left;
+	margin-left:36px ;
+	margin-top:36px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+}
+.shuzi{
+	width:94px;
+	height:32px ;
+	/*background:red ;*/
+	float: left;
+	margin-left:15px ;
+	margin-top:36px;
+	font-size:12px;
+	text-align: center;
+	line-height: 32px;
+}
+.zaixian{
+	width:66px;
+	height:21px ;
+	/*background:#32A5E7;*/
+	float: left;
+	margin-left:25px ;
+	margin-top:43px;
+	font-size:12px;
+	text-align:center;
+	line-height:21px;
+	border-radius:2px;
+	color: #FFFFFF;
+}
+.xinnang{
+	width:33px ;
+	height:32px ;
+	background:url(../../images/cl/cl-img/aa1_05.jpg);
+	float:left;
+	margin-left:143px ;
+	margin-top:36px ;
+}
+.wenxi{
+	width:33px ;
+	height:32px;
+	background:url(../../images/cl/cl-img/aa2_03.jpg);
+	float:left ;
+	margin-left:14px ;
+	margin-top:36px;
+}
+.kongjian{
+	width:33px;
+	height:32px;
+	background:url(../../images/cl/cl-img/aa3_03.jpg);
+	float:left;
+	margin-left:15px ;
+	margin-top: 36px;
+}
+.foot-bbo{
+	width:769px ;
+	height:17px;
+	/*background:palegreen;*/
+	float: left;
+	margin-top:22px;
+	margin-left:175px ;
+	font-size: 11px;
+	text-align:left;
+	line-height: 17px;
+	color: #7F7F7F;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.

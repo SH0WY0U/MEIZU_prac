@@ -41,9 +41,9 @@ a {
    margin-top:28px;
 }
 .banjin{
-	width:1348px ;
-	height:751px ;
-	background:url(../../images/cl/cl-img/banjing_02.jpg);
+	width:1310px ;
+	height:750px ;
+	background:url(../../images/cl/cl-img/zhuce_02.jpg);
 	float: left;
 }
 .hedad{
@@ -72,13 +72,13 @@ a {
 	font-size:16px;
 }
 .yonghumi{
-	width:299px ;
+	width:297px ;
 	height:49px ;
 	/*background:red ;*/
 	float: left;
 	margin-left:36px ;
 	margin-top:106px;
-	border: 1px solid #7F7F7F;
+	/*border: 1px solid #A9A9A9;*/
 	text-align: center;
 	line-height: 49px;
 }
@@ -89,16 +89,19 @@ a {
 	/*background:red;*/
 	float: right;
 	
+	
+	
 }
 .mima{
-	width:299px ;
+	width:297px ;
 	height:49px ;
 	/*background:red;*/
 	float:left;
 	margin-top:44px ;
 	margin-left:37px;
-	border: 1px solid  #A9A9A9;
+	/*border: 1px solid  #A9A9A9;*/
 	line-height: 44px;
+	
 }
 #upwd{
 	width:227px;
