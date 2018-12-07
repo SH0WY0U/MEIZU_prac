@@ -1,3 +1,4 @@
+// 轮播图功能封装
 var swiper = (function () {
     return {
         init(ele) {
@@ -32,7 +33,7 @@ var swiper = (function () {
                 this.box.css('left', 0);
             }
             this.index = n;
-            console.log(this.index);
+            // console.log(this.index);
             this.li.removeClass('now');
             this.li[n].classList.add('now');
             this.box.animate({ left: -this.box.children()[0].clientWidth * (n + 1) }, 500);
@@ -45,4 +46,37 @@ var swiper = (function () {
         }
     }
 }())
+// 调用轮播图
 swiper.init('.client')
+
+// 商品展示渲染
+var insertListData = (function () {
+    return {
+        init(ele, url) {
+            this.goods = $(ele);
+            this.goodsImg = $(ele + ' img');
+            this.goodsName = $(ele + ' span:nth-type-of(1)');
+            this.goodsTag = $(ele + ' span:nth-type-of(2)');
+            this.goodsPrice = $(ele + ' span:nth-type-of(2)');
+            this.getData(url);
+
+        },
+        getData(url) {
+            $.get(url, function (res) {
+                console.log(res);
+            })
+        },
+        insertData(data) {
+            this.goods.each(function () {
+                if (this.children('span')) {
+                    this.children('span').each(function () {
+
+                    })
+
+                }
+            })
+        }
+    }
+}())
+
+insertListData.init('.goods_box', 'json/zyq/list.json')

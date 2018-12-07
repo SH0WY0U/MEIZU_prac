@@ -1,0 +1,122 @@
+[
+    {
+        "goods_id": 0,
+        "goods_name": "魅族 note8",
+        "goods_tag": "国民拍照全面屏手机 全像素双核对焦 大电池长续航",
+        "goods_price": 1298,
+        "goods_image": "images/zyq/phone00",
+        "goods_storage": [
+            "4+64GB"
+        ],
+        "show-image": "images/zyq/area01.jpg"
+    },
+    {
+        "goods_id": 1,
+        "goods_name": "魅族 16th",
+        "goods_tag": "国民拍照全面屏手机 全像素双核对焦 大电池长续航",
+        "goods_price": 2698,
+        "goods_image": "images/zyq/phone01",
+        "goods_storage": [
+            "4+64GB",
+            "6+128GB",
+            "8+128GB"
+        ]
+    },
+    {
+        "goods_id": 2,
+        "goods_name": "魅族 16 X",
+        "goods_tag": "高通骁龙710 屏下指纹 旗舰双摄",
+        "goods_price": 2098,
+        "goods_image": "images/zyq/phone02",
+        "goods_storage": [
+            "4+64GB",
+            "6+128GB"
+        ]
+    },
+    {
+        "goods_id": 3,
+        "goods_name": "魅族 X8",
+        "goods_tag": "骁龙710处理器 人脸指纹双解锁 旗舰双摄",
+        "goods_price": 1498,
+        "goods_image": "images/zyq/phone03",
+        "goods_storage": [
+            "4+64GB",
+            "6+64GB",
+            "6+128GB"
+        ]
+    },
+    {
+        "goods_id": 4,
+        "goods_name": "魅族 V8 高配版",
+        "goods_tag": "高清双摄 指纹+人脸双解锁",
+        "goods_price": 1098,
+        "goods_image": "images/zyq/phone04",
+        "goods_storage": [
+            "4+64GB"
+        ]
+    },
+    {
+        "goods_id": 5,
+        "goods_name": "魅族 15",
+        "goods_tag": "骁龙660 前置2000万AI智能美颜",
+        "goods_price": 1498,
+        "goods_image": "images/zyq/phone05",
+        "goods_storage": [
+            "4+64GB",
+            "4+128GB"
+        ]
+    },
+    {
+        "goods_id": 6,
+        "goods_name": "魅蓝 E3",
+        "goods_tag": "骁龙636处理器 全系6G大运存",
+        "goods_price": 1799,
+        "goods_image": "images/zyq/phone06",
+        "goods_storage": [
+            "4+64GB"
+        ]
+    },
+    {
+        "goods_id": 7,
+        "goods_name": "魅族 16th Plus",
+        "goods_tag": "骁龙845 AI加速 屏幕下指纹 AI双摄光学防抖",
+        "goods_price": 3198,
+        "goods_image": "images/zyq/phone07",
+        "goods_storage": [
+            "6+128GB",
+            "8+128GB",
+            "8+256GB"
+        ]
+    },
+    {
+        "goods_id": 8,
+        "goods_name": "魅族 V8 标配版",
+        "goods_tag": "5.7英寸HD+全面屏 AI智能美颜",
+        "goods_price": 799,
+        "goods_image": "images/zyq/phone08",
+        "goods_storage": [
+            "3+32GB"
+        ]
+    },
+    {
+        "goods_id": 9,
+        "goods_name": "魅族 M15",
+        "goods_tag": "骁龙626 前置2000万AI智能美颜",
+        "goods_price": 1398,
+        "goods_image": "images/zyq/phone09",
+        "goods_storage": [
+            "4+64GB"
+        ]
+    },
+    {
+        "goods_id": 10,
+        "goods_name": "魅族 15 Plus",
+        "goods_tag": "Exynos 8895处理器 2000万暗光双摄",
+        "goods_price": 1798,
+        "goods_image": "images/zyq/phone10",
+        "goods_storage": [
+            "6+64GB",
+            "6+128GB"
+        ]
+    }
+]

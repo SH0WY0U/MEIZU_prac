@@ -108,10 +108,126 @@ html{
 /* 服务栏结束 */
 
 /* 展示区通用样式 */
-
+.area_title{
+	height: 47px;
+	padding-top: 59px;
+	text-align: center;
+}
+.area_title h3{
+	font-size: 30px;
+	color: #515151;
+}
+.area_banner{
+	height: 450px;
+	position: relative;
+	transition: all 0.2s linear;
+}
+.area_banner:hover{
+	opacity: 0.9;
+}
+.area_banner a{
+	height: 100%;
+}
+.area_banner a img{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.list{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.list a{
+	width:24.5%;
+	height: 375px;
+	text-align: center;
+	transition:  all 0.2s linear;
+	background: white;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+.list a:hover{
+	box-shadow: 0px 5px 20px 1px #bebebe; 
+		
+}
+.list a img{
+	height: 230px;
+	width: 230px;
+}
+.list span{
+	display: inline-block;
+}
+.list span:nth-of-type(1){
+	font-size: 16px;
+	color:#333;
+}
+.list span:nth-of-type(2){
+	font-size: 14px;
+	color:#999;
+}
+.list span:nth-of-type(3){
+	font-size: 22px;
+	color:#d21f1f;
+}
+.list span:nth-of-type(3) i{
+	font-size: 14px;
+	color:#d21f1f;
+}
 /* 手机区开始 */
 
-
+.c_point{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.c_point a{
+	width:49.5%;
+	height: 610px;
+	text-align: center;
+	transition:  all 0.2s linear;
+	background: white;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+.c_point a:hover{
+	box-shadow: 0px 5px 20px 1px #bebebe; 
+		
+}
+.c_point a img{
+	height: 460px;
+	width: 460px;
+}
+.c_point span{
+	display: inline-block;
+}
+.c_point span:nth-of-type(1){
+	font-size: 28px;
+	color:#333;
+}
+.c_point span:nth-of-type(2){
+	font-size: 18px;
+	color:#999;
+}
+.c_point span:nth-of-type(3){
+	font-size: 22px;
+	color:#d21f1f;
+}
+.c_point span:nth-of-type(3) i{
+	font-size: 14px;
+	color:#d21f1f;
+}
 
 
 /* 手机区结束 */
