@@ -27,7 +27,12 @@ img {
 
 .mzcontainer {
     width: 1240px;
+
     margin: 0 auto;
+}
+
+.mz-c {
+    display: inline-block;
 }
 
 .mzlogo {
@@ -52,6 +57,9 @@ img {
 }
 
 .header-ser {
+    position: relative;
+    right: 0;
+    top: 0;
     float: right;
     height: 80px;
     user-select: none;
@@ -64,6 +72,7 @@ img {
     right: 3px;
     padding: 26px 8px 0 12px;
 }
+
 
 .header-ser-item1 {
     position: relative;
@@ -123,6 +132,73 @@ img {
     border-radius: 100%;
 }
 
+/* 个人中心 注册登录 */
+.layout-user-downmenu {
+    display: none;
+    position: absolute;
+    right: -25px;
+    top: 66px;
+    z-index: 999;
+    font-size: 12px;
+    padding-top: 4px;
+    overflow: hidden;
+    animation: .3s ease showUserDownMenu forwards 1;
+}
+
+.layout-user-downmenu .layout-user-downmenu-list {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 6px 0;
+    width: 96px;
+    border: 1px solid #efefef;
+
+    user-select: none;
+}
+
+.layout-user-downmenu .layout-user-downmenu-link {
+    position: relative;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 7px 0;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.meizu-header-user-trigger {
+    display: none;
+    position: absolute;
+    right: -25px;
+    top: 66px;
+    z-index: 999;
+    font-size: 12px;
+    padding-top: 4px;
+    overflow: hidden;
+    animation: .3s ease showUserDownMenu forwards 1;
+}
+
+.meizu-header-user-trigger .meizu-header-user-dropdown {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 6px 0;
+    width: 96px;
+    border: 1px solid #efefef;
+
+    user-select: none;
+}
+
+.meizu-header-user-trigger .meizu-header-user-dropdown .user-downmenu {
+    position: relative;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 7px 0;
+    background-color: transparent;
+    transition: all .3s;
+}
+
 .ser-cart {
     position: relative;
     display: inline-block;
@@ -167,15 +243,23 @@ img {
 }
 
 .header-nav {
+
+
     float: right;
 }
 
 .header-nav .header-nav-item {
+    position: relative;
+    top: 0;
+    left: 0;
     float: left;
     margin: 0 20px 0 15px;
 }
 
 .header-nav-item .nav-link {
+    position: relative;
+    right: 0;
+    top: 0;
     display: block;
     color: #333;
     height: 80px;
