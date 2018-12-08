@@ -1,3 +1,3 @@
 <?php
-echo 888;
+echo $_GET['goods_id'];
 ?>

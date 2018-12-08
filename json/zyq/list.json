@@ -8,7 +8,8 @@
         "goods_type": [
             "4+64GB"
         ],
-        "show_image": "images/zyq/area01.jpg"
+        "show_image": "images/zyq/area01.jpg",
+        "banner_image": "images/zyq/banner4.jpg"
     },
     {
         "goods_id": 1,
@@ -31,7 +32,8 @@
         "goods_type": [
             "4+64GB",
             "6+128GB"
-        ]
+        ],
+        "banner_image": "images/zyq/banner3.jpg"
     },
     {
         "goods_id": 3,
@@ -43,7 +45,8 @@
             "4+64GB",
             "6+64GB",
             "6+128GB"
-        ]
+        ],
+        "banner_image": "images/zyq/banner5.jpg"
     },
     {
         "goods_id": 4,
@@ -86,7 +89,8 @@
             "6+128GB",
             "8+128GB",
             "8+256GB"
-        ]
+        ],
+        "banner_image": "images/zyq/banner2.jpg"
     },
     {
         "goods_id": 8,
@@ -129,7 +133,8 @@
             "深蓝",
             "月白"
         ],
-        "show_image": "images/zyq/area02.jpg"
+        "show_image": "images/zyq/area02.jpg",
+        "banner_image": "images/zyq/banner6.jpg"
     },
     {
         "goods_id": 12,
