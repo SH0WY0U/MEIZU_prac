@@ -160,7 +160,7 @@ html{
 }
 .list a img{
 	height: 230px;
-	width: 230px;
+	/* width: 230px; */
 }
 .list span{
 	display: inline-block;
@@ -232,11 +232,11 @@ html{
 
 /* 手机区结束 */
 
-/* 声学区开始 */
-/* 声学区结束 */
-
-/* 配件区开始 */
-/* 配件区结束 */
-
-/* 生活区开始 */
-/* 生活区结束 */
+/* 声学区,配件区,生活区通用样式开始 */
+.sound_area a:nth-of-type(4n+1) img,.fittings_area a:nth-of-type(4n+1) img,.life_area  a:nth-of-type(4n+1) img{
+	height: 100%;
+}
+.sound_area a:nth-of-type(4n+1) span,.fittings_area a:nth-of-type(4n+1) span,.life_area  a:nth-of-type(4n+1) span{
+	display: none;
+}
+/* 声学区,配件区,生活区通用样式开始结束 */
