@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-page {
+    position: relative;
+    padding-top: 66px;
+    line-height: 1.5;
+}
+
+.main-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #f6f8fb;
+}
+
+.mz-con {
+    position: relative;
+    width: 1240px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.mz-con .-ulist {
+    float: right;
+    margin-top: 26px;
+    margin-right: -15px;
+}
+
+.-ulist .-item {
+    float: left;
+    position: relative;
+    z-index: 1;
+    border-right: 1px solid #dedede;
+}
+
+.-ulist .-item .-link {
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    transition: color .3s;
+}
+
+.mz-con .-name {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    font-size: 26px;
+}
+
+.container {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+
+.preview .preview-b {
+    position: relative;
+
+    height: 560px;
+
+
+}
+
+.container .preview .preview-booth {
+
+    position: relative;
+    margin: 8px 0;
+    width: 560px;
+    height: 560px;
+}
+
+.preview-booth .preview-boothimg {
+    height: 560px;
+    width: 560px;
+}
+
+#bf {
+    height: 560px;
+    width: 560px;
+    float: right;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 560px;
+}
+
+.small {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 200px;
+    width: 200px;
+    background: orange;
+}
+
+.preview .preview-thumb {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.preview .preview-thumb li {
+    position: relative;
+    display: inline-block;
+    margin: 0 24px;
+    overflow: hidden;
+    height: 102px;
+}
+
+.preview .preview-thumb a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.preview .preview-thumb img {
+    position: relative;
+    max-width: 80px;
+    max-height: 80px
+}
+
+/* 右边 */
+.property {
+    position: absolute;
+    left: 600px;
+    top: 0;
+    width: 640px;
+    font-size: 12px;
+    padding-top: 25px;
+
+}
+
+.property .property-hd {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 12px
+}
+
+.property .property-hd h1 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #262626;
+}
+
+.property .property-hd .mod-info {
+    font-size: 14px;
+    color: #999;
+}
+
+.property .property-sell {
+    position: relative;
+    background: #f4f6fa;
+    padding: 16px 0 12px;
+}
+
+.property .property-sell .mod-price {
+    height: 36px;
+    overflow: hidden;
+    padding-left: 10px;
+    line-height: 36px;
+}
+
+.property-sell .mod-price small {
+    font-size: 24px;
+    color: #e02b41;
+}
+
+.property-sell .mod-price .vm-money {
+    color: #e02b41;
+    font-size: 36px;
+}
+
+.property-sibling .sibling-item,
+.property-set-sale {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.property .vm-metatit {
+    float: left;
+    padding-left: 10px;
+    width: 65px;
+    font-size: 12px;
+    line-height: 42px;
+    color: #8c8c8c;
+}
+
+.property .s-space {
+    padding: 0 6px;
+}
+
+.sibling-item dd,
+.property-set-sale dd {
+    float: left;
+    width: 565px;
+    overflow: hidden;
+}
+
+.sibling-item dd a,
+.property-set-sale a {
+    position: relative;
+    float: left;
+    width: 176px;
+    margin: 0 10px 10px 0;
+    background-color: #fff;
+    white-space: nowrap;
+    line-height: 40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 2px;
+    color: #595959;
+    font-size: 14px;
+    text-align: center;
+}
+
+.property-buy {
+    margin-top: 20px;
+}
+
+.property-buy-q {
+    margin-bottom: 45px;
+}
+
+.property-buy .mod-control {
+    position: relative;
+    z-index: 1;
+    height: 40px;
+    width: 122px;
+    overflow: hidden;
+}
+
+.property-buy .mod-control,
+.property-related li {
+    margin-right: 30px;
+    float: left;
+}
+
+.property-buy .mod-control a {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    background: #f7f7f7;
+}
+
+.property-buy .mod-control .vm-plus {
+    right: 0;
+}
+
+.property-buy .mod-control input {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 60px;
+    height: 38px;
+    padding: 0;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+    color: #595959;
+    border: 1px solid #dedede;
+}
+
+.property-buy .property-buy-action {
+    margin-top: 17px;
+
+    float: left;
+}
+
+.property-buy .btn {
+    padding: 15px 0;
+    width: 208px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.mr20 {
+    margin-right: 20px !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #27b3ff;
+}
+
+.property-buy .btn-empty {
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #27B3FF;
+    color: #27b3ff;
+}
+
+.btn,
+.diff-operate,
+.match-alert-bd,
+.tcenter {
+    text-align: center;
+}
+
+.det-re {
+    background: #f4f4f4;
+    padding-bottom: 60px;
+    margin-top: 60px;
+}
+
+.det-re .simple-hd {
+    font-size: 24px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
