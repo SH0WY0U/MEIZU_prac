@@ -120,27 +120,379 @@
         ]
     },
     {
-        "goods_id": ,
-        "goods_name": "",
-        "goods_tag": " ",
-        "goods_price": ,
-        "goods_image": "images/",
+        "goods_id": 11,
+        "goods_name": "魅族 EP52 Lite 蓝牙耳机",
+        "goods_tag": "超高性价比创造无线新声代",
+        "goods_price": 129,
+        "goods_image": "images/zyq/sound00.jpg",
         "goods_type": [
-            "",
-            ""
+            "深蓝",
+            "月白"
         ],
-        "show_image": "images/zyq/"
+        "show_image": "images/zyq/area02.jpg"
     },
     {
-        "goods_id": ,
-        "goods_name": "",
-        "goods_tag": " ",
-        "goods_price": ,
-        "goods_image": "images/",
+        "goods_id": 12,
+        "goods_name": "魅族蓝牙音频接收器",
+        "goods_tag": "独立音频芯片音质媲美有线",
+        "goods_price": 89,
+        "goods_image": "images/zyq/sound01.jpg",
         "goods_type": [
-            "",
-            ""
+            "皓月白",
+            "钢琴黑"
         ],
-        "show_image": "images/zyq/"
+        "show_image": "images/zyq/soundshow01.jpg"
     },
+    {
+        "goods_id": 13,
+        "goods_name": "魅族 EP-31 耳机",
+        "goods_tag": "舒适均衡 精致优雅",
+        "goods_price": 99,
+        "goods_image": "images/zyq/sound02.png",
+        "goods_type": [
+            "金色",
+            "银色"
+        ]
+    },
+    {
+        "goods_id": 14,
+        "goods_name": "魅蓝 EP52 蓝牙耳机",
+        "goods_tag": "轻盈悦耳 动无拘束",
+        "goods_price": 249,
+        "goods_image": "images/zyq/sound03.png",
+        "goods_type": [
+            "红黑色"
+        ]
+    },
+    {
+        "goods_id": 15,
+        "goods_name": "魅族 EP51 蓝牙运动耳机",
+        "goods_tag": "臻享音质 自在运动",
+        "goods_price": 169,
+        "goods_image": "images/zyq/sound04.png",
+        "goods_type": [
+            "白色",
+            "红黑"
+        ]
+    },
+    {
+        "goods_id": 16,
+        "goods_name": "POP 真无线蓝牙耳机",
+        "goods_tag": "六期免息 双无线 零设限",
+        "goods_price": 499,
+        "goods_image": "images/zyq/sound05.jpg",
+        "goods_type": [
+            "皓月白"
+        ],
+        "show_image": "images/zyq/soundshow05.jpg"
+    },
+    {
+        "goods_id": 17,
+        "goods_name": "魅族 Flow Bass 三单元耳机",
+        "goods_tag": "延续经典，重赋新声",
+        "goods_price": 399,
+        "goods_image": "images/zyq/sound06.png",
+        "goods_type": [
+            "极光灰"
+        ]
+    },
+    {
+        "goods_id": 18,
+        "goods_name": "魅族 EP2X 耳机",
+        "goods_tag": "契合声音的流动之美",
+        "goods_price": 69,
+        "goods_image": "images/zyq/sound07.png",
+        "goods_type": [
+            "珍珠黑",
+            "皓月白"
+        ]
+    },
+    {
+        "goods_id": 19,
+        "goods_name": "魅族 HALO 激光蓝牙耳机",
+        "goods_tag": "夜跑神器 随性张扬",
+        "goods_price": 999,
+        "goods_image": "images/zyq/sound08.png",
+        "goods_type": [
+            "蓝色",
+            "红色"
+        ]
+    },
+    {
+        "goods_id": 20,
+        "goods_name": "魅族 LIVE 四单元动铁耳机",
+        "goods_tag": "享12期免息",
+        "goods_price": 1299,
+        "goods_image": "images/zyq/sound09.jpg",
+        "goods_type": [
+            "银色"
+        ],
+        "show_image": "images/zyq/soundshow09.jpg"
+    },
+    {
+        "goods_id": 21,
+        "goods_name": "魅族 Flow 三单元耳机",
+        "goods_tag": "用得惬意 听得尽兴",
+        "goods_price": 399,
+        "goods_image": "images/zyq/sound10.png",
+        "goods_type": [
+            "月光银",
+            "星空黑"
+        ]
+    },
+    {
+        "goods_id": 22,
+        "goods_name": "魅族蓝牙小音箱",
+        "goods_tag": "好音感 直达心灵",
+        "goods_price": 89,
+        "goods_image": "images/zyq/sound11.png",
+        "goods_type": [
+            "深空灰",
+            "皓月白"
+        ]
+    },
+    {
+        "goods_id": 23,
+        "goods_name": "魅族 Gravity 悬浮音响",
+        "goods_tag": "6期免息 魅族声学15年集大成之作",
+        "goods_price": 1099,
+        "goods_image": "images/zyq/sound12.png",
+        "goods_type": [
+            "黑色"
+        ]
+    },
+    {
+        "goods_id": 24,
+        "goods_name": "魅族移动电源3",
+        "goods_tag": "双向快充双充电口 轻薄小巧",
+        "goods_price": 79,
+        "goods_image": "images/zyq/fittings00.jpg",
+        "goods_type": [
+            "静谧黑",
+            "简约白"
+        ],
+        "show_image": "images/zyq/area03.jpg"
+    },
+    {
+        "goods_id": 25,
+        "goods_name": "魅族无线充电器",
+        "goods_tag": "10W快速充电 无线即放即充",
+        "goods_price": 99,
+        "goods_image": "images/zyq/fittings01.jpg",
+        "goods_type": [
+            "白色"
+        ],
+        "show_image": "images/zyq/fittingsshow01.jpg"
+    },
+    {
+        "goods_id": 26,
+        "goods_name": "快充电源适配器（UP0830S）",
+        "goods_tag": "快速充电 安全无忧",
+        "goods_price": 69,
+        "goods_image": "images/zyq/fittings02.png",
+        "goods_type": [
+            "白色"
+        ]
+    },
+    {
+        "goods_id": 27,
+        "goods_name": "三星存储卡32G/64G",
+        "goods_tag": "限时抢购",
+        "goods_price": 49,
+        "goods_image": "images/zyq/fittings03.png",
+        "goods_type": [
+            "32G",
+            "64G"
+        ]
+    },
+    {
+        "goods_id": 28,
+        "goods_name": "魅族 16th 高透保护膜",
+        "goods_tag": "高透光率 支持魅族16th屏幕指纹解锁",
+        "goods_price": 19,
+        "goods_image": "images/zyq/fittings04.png",
+        "goods_type": [
+            "透明"
+        ]
+    },
+    {
+        "goods_id": 29,
+        "goods_name": "魅族 16th Plus 高透保护膜",
+        "goods_tag": "高透光率 支持魅族16th Plus屏幕指纹解锁",
+        "goods_price": 19,
+        "goods_image": "images/zyq/fittings05.jpg",
+        "goods_type": [
+            "透明"
+        ],
+        "show_image": "images/zyq/fittingsshow05.jpg"
+    },
+    {
+        "goods_id": 30,
+        "goods_name": "魅族 16th Plus 亲肤保护壳",
+        "goods_tag": "量体打造的纤薄 薄如无形",
+        "goods_price": 29,
+        "goods_image": "images/zyq/fittings06.png",
+        "goods_type": [
+            "黑色"
+        ]
+    },
+    {
+        "goods_id": 31,
+        "goods_name": "魅族 16X 亲肤保护壳",
+        "goods_tag": "轻盈亲近 薄若无形",
+        "goods_price": 29,
+        "goods_image": "images/zyq/fittings07.png",
+        "goods_type": [
+            "黑色"
+        ]
+    },
+    {
+        "goods_id": 32,
+        "goods_name": "魅族 V8 标配版高透保护膜",
+        "goods_tag": "高透光率 助双眼捕捉每一颗像素的色彩",
+        "goods_price": 19,
+        "goods_image": "images/zyq/fittings08.png",
+        "goods_type": [
+            "透明"
+        ]
+    },
+    {
+        "goods_id": 33,
+        "goods_name": "魅族桌面多功能USB排插",
+        "goods_tag": "颜值与实力 亦可兼得",
+        "goods_price": 49,
+        "goods_image": "images/zyq/fittings09.jpg",
+        "goods_type": [
+            "白色"
+        ],
+        "show_image": "images/zyq/fittingsshow09.jpg"
+    },
+    {
+        "goods_id": 34,
+        "goods_name": "魅族 Micro USB 数据线",
+        "goods_tag": "广泛兼容 经久耐用",
+        "goods_price": 29,
+        "goods_image": "images/zyq/fittings10.png",
+        "goods_type": [
+            "白色1米"
+        ]
+    },
+    {
+        "goods_id": 35,
+        "goods_name": "魅族 Type-C 2.0数据线",
+        "goods_tag": "5A大电流充电 高速传输",
+        "goods_price": 59,
+        "goods_image": "images/zyq/fittings11.png",
+        "goods_type": [
+            "白色1米"
+        ]
+    },
+    {
+        "goods_id": 36,
+        "goods_name": "魅族 Type-C 金属数据线",
+        "goods_tag": "支持2A快速充电 耐用又放心",
+        "goods_price": 39,
+        "goods_image": "images/zyq/fittings12.png",
+        "goods_type": [
+            "白色1.2米",
+            "金色1.2米"
+        ]
+    },
+    {
+        "goods_id": 37,
+        "goods_name": "Everyday 乐游系列 酷 MA 萌定制版",
+        "goods_tag": "萌友为伴，为出行添点乐趣",
+        "goods_price": 599,
+        "goods_image": "images/zyq/life00.jpg",
+        "goods_type": [
+            "黑色"
+        ],
+        "show_image": "images/zyq/area04.jpg"
+    },
+    {
+        "goods_id": 38,
+        "goods_name": "魅蓝 休闲旅行双肩包",
+        "goods_tag": "曲面一体式 多功能隔层 极简与线条之美",
+        "goods_price": 169,
+        "goods_image": "images/zyq/life01.jpg",
+        "goods_type": [
+            "黑色",
+            "灰色"
+        ],
+        "show_image": "images/zyq/lifeshow01.jpg"
+    },
+    {
+        "goods_id": 39,
+        "goods_name": "魅蓝旅行包",
+        "goods_tag": "轻盈负重 细节开花",
+        "goods_price": 199,
+        "goods_image": "images/zyq/life02.png",
+        "goods_type": [
+            "灰色"
+        ]
+    },
+    {
+        "goods_id": 40,
+        "goods_name": "魅蓝数码收纳包",
+        "goods_tag": "随身收纳 安全安心",
+        "goods_price": 49,
+        "goods_image": "images/zyq/life03.png",
+        "goods_type": [
+            "黑色"
+        ]
+    },
+    {
+        "goods_id": 41,
+        "goods_name": "魅蓝20寸旅行箱 酷MA萌定制版",
+        "goods_tag": "静音双排万向轮设计，具备安全TSA海关锁",
+        "goods_price": 349,
+        "goods_image": "images/zyq/life04.png",
+        "goods_type": [
+            "红色"
+        ]
+    },
+    {
+        "goods_id": 42,
+        "goods_name": "魅蓝胸包",
+        "goods_tag": "斜背 侧背随心选择",
+        "goods_price": 89,
+        "goods_image": "images/zyq/life05.jpg",
+        "goods_type": [
+            "黑色",
+            "灰色"
+        ],
+        "show_image": "images/zyq/lifeshow05.jpg"
+    },
+    {
+        "goods_id": 43,
+        "goods_name": "魅族蓝牙自拍杆",
+        "goods_tag": "还给你自由的双手",
+        "goods_price": 99,
+        "goods_image": "images/zyq/life06.png",
+        "goods_type": [
+            "黑色",
+            "粉色"
+        ]
+    },
+    {
+        "goods_id": 44,
+        "goods_name": "魅族盒子 一键找回遥控器",
+        "goods_tag": "海量内容 同享美妙",
+        "goods_price": 199,
+        "goods_image": "images/zyq/life07.png",
+        "goods_type": [
+            "黑色",
+            "白色"
+        ]
+    },
+    {
+        "goods_id": 45,
+        "goods_name": "魅族熊猫磁吸出风口支架",
+        "goods_tag": "高度兼容 安稳放置",
+        "goods_price": 49,
+        "goods_image": "images/zyq/life08.png",
+        "goods_type": [
+            "黑色"
+        ]
+    }
 ]
