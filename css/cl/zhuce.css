@@ -43,7 +43,7 @@ a {
 .banjin{
 	width:1310px ;
 	height:750px ;
-	background:url(../../images/cl/cl-img/zhuce_02.jpg);
+	background:url(../../images/cl/cl-img/banner.png);
 	float: left;
 }
 .hedad{
@@ -156,16 +156,25 @@ a {
 	background:#32A5E7;
 	color:white;
 }
+.denlisa a{
+	width:28px ;
+	height:19px;
+	/*background:red ;*/
+	float:left ;
+	color: #00A7ED;
+}
+
 .denlisa{
   width:29px ;
   height:14px;
-  /*background:red ;*/
+  /*background:blue;*/
   float: left;
   text-align: center;
   margin-left:36px ;
   margin-top:15px ;
   font-size:14px ;
-  color:#32A5E7;
+  color:#00A7ED;
+  line-height: 14px;
 }
 
 .ganyu{

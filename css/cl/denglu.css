@@ -160,9 +160,6 @@ a {
 	background:#32A5E7 ;
 }
 
-
-
-
 .left-nbo{
 	width:29px ;
 	height:14px ;
@@ -174,8 +171,16 @@ a {
 	line-height:14px;
 	font-size: 14px;
 	font-weight: bold;
-	color: #0000FF ;
+	
 }
+
+.left-nbo a{
+	width:29px ;
+	height:14px ;
+	color: #00A7ED;
+}
+
+
 .right-nji{
 	width:64px;
 	height:14px;
@@ -186,7 +191,7 @@ a {
 	line-height:14px;
 	font-size: 14px;
 	font-weight: bold;
-	color: #0000FF;
+	color:#00A7ED;
 }
 
 
