@@ -273,15 +273,15 @@ img {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 45px;
-    height: 0;
+    top: 56px;
+    height: 165px;
     font-size: 12px;
     text-align: center;
     z-index: 2;
     padding-top: 30px;
     /* opacity: 0; */
     transition: all .2s ease-in-out;
-
+    background: #fff;
 }
 
 .child-list {
