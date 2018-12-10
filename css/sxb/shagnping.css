@@ -73,69 +73,168 @@ a {
 .preview .preview-b {
     position: relative;
 
-    height: 560px;
+    display: inline-block;
+    height: 550px;
 
 
 }
 
 .container .preview .preview-booth {
-
+    display: inline-block;
     position: relative;
     margin: 8px 0;
-    width: 560px;
-    height: 560px;
+    width: 500px;
+    height: 500px;
 }
 
 .preview-booth .preview-boothimg {
-    height: 560px;
-    width: 560px;
-}
-
-#bf {
-    height: 560px;
-    width: 560px;
-    float: right;
+    height: 500px;
+    width: 500px;
     overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 560px;
 }
 
-.small {
+/* #bf {
+    display: none;
+    height: 500px;
+    width: 500px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 8px 0;
+    z-index: 10;
+
+} */
+
+/* #bf img {
+    position: absolute;
+
+} */
+
+/* .small {
+    display: none;
     position: absolute;
     left: 0;
     top: 0;
-    height: 200px;
-    width: 200px;
-    background: orange;
+    height: 140px;
+    width: 140px;
+    opacity: 0.4;
+    background: gray;
+
+} */
+
+/* eee */
+#spic {
+    width: 500px;
+    height: 500px;
+    /*   border: 1px solid #000; */
+    float: left;
+    position: relative;
+    margin: 8px 0;
+
 }
 
+#spic img {
+    width: 500px;
+    height: 500px;
+
+}
+
+#sf {
+    display: none;
+    background: orange;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 240px;
+    width: 240px;
+    /* visibility: hidden; */
+}
+
+#bf {
+    display: none;
+    margin: 8px 0;
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    left: 10px;
+    z-index: 9;
+    /* visibility: hidden; */
+
+}
+
+#bf img {
+
+    position: absolute;
+
+}
+
+#ulist {
+    position: absolute;
+    top: 480px;
+    left: 200px;
+    padding-top: 40px;
+    width: 300px;
+
+    overflow: hidden;
+}
+
+#list {
+
+    margin-left: 18px;
+    width: 80px;
+
+    position: relative;
+}
+
+
+#list li {
+
+    border: 1px solid #ccc;
+    width: 80px;
+    height: 80px;
+
+
+}
+
+#list li img {
+    width: 80px;
+    height: 80px;
+
+    overflow: hidden;
+}
+
+/*  */
 .preview .preview-thumb {
     overflow: hidden;
     margin-top: 10px;
     margin-left: 24px;
 }
 
+/* 
 .preview .preview-thumb li {
     position: relative;
     display: inline-block;
     margin: 0 24px;
     overflow: hidden;
     height: 102px;
-}
+} */
 
-.preview .preview-thumb a {
+/* .preview .preview-thumb a {
     display: block;
     position: relative;
     overflow: hidden;
     text-align: center;
-}
+} */
 
-.preview .preview-thumb img {
+/* .preview .preview-thumb img {
     position: relative;
     max-width: 80px;
     max-height: 80px
-}
+} */
 
 /* 右边 */
 .property {
