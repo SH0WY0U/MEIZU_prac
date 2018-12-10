@@ -1,0 +1,154 @@
+#header_wrap{
+    position: relative;
+    height: 82px;
+    background: transparent;
+}
+#header_wrap:hover{
+    background: red;
+}
+#header_wrap:hover .com_nav{
+    background: red;
+}
+#header_wrap:hover .com_nav a{
+    color: #515151;
+} 
+#com_header{
+    width: 1240px;
+    height: 82px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+#com_header h1{
+    display: block;
+    width: 125px;
+    height: 23px;
+}
+#com_header h1 a{
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    background: url(../../images/zyq/logo.png) center no-repeat;
+    background-size: 100%;
+}
+.com_right{
+    height: 100%;
+    width: 905px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.com_nav{
+    font-size: 14px;
+
+}
+.com_nav a{
+    font-size: 14px;
+    color: white;
+    margin-right:35px;
+}
+.com_searcher{
+    height: 30px;
+    width: 170px;
+    border-radius: 15px;
+    border: 1px solid #999;
+    position: relative;
+}
+.com_searcher input{
+    height: 100%;
+    border-radius: 15px;
+    border: 0;
+    text-indent: 10px;
+}
+.com_searcher img{
+    width: 17px;
+    height: 14px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.com_user img,.com_shopcar img{
+    width: 30px;
+    height: 30px;
+}
+.com_user:hover+.com_menu{
+    display: block;
+}
+.com_menu:hover{
+    display: block;
+}
+.com_menu{
+    position: absolute;
+    right: 20px;
+    top: 58px;
+    display: none;
+}
+.com_menu li{
+    height: 35px;
+    width: 80px;
+    background: white;
+}
+.com_menu a{
+    width: 100%;
+    height: 100%;
+    line-height: 35px;
+    text-align: center;
+    color: #515151;
+    display: block;
+}
+.com_menu a:hover{
+    background: rgb(212, 207, 207);
+}
+.sec_nav{
+    width: 1240px;
+    height: 190px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+.sec_nav img{
+    width: 110px;
+    height: 110px;
+}
+.sec_nav section{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .3s linear;
+}
+.sec_nav section a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #353535;
+}
+.sec_nav section span:first-of-type{
+    font-size: 12px;
+}
+.sec_nav section span:last-of-type{
+    font-size: 9px;
+
+}
+.sec_nav .com_phone{
+    display: none;
+}
+.sec_nav .com_sound{
+    display: none;
+}
+.sec_nav .com_fittings{
+    display: none;
+}
+.sec_nav .com_life{
+    display: none;
+}

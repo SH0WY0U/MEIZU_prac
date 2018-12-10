@@ -123,7 +123,7 @@ html{
 	transition: all 0.2s linear;
 }
 .area_banner:hover{
-	opacity: 0.9;
+	opacity: 0.8;
 }
 .area_banner a{
 	height: 100%;
