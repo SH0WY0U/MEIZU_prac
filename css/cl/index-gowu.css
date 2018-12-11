@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 2px solid #FF4500;
+}
+
+.heade-bander {
+	width:1348px;
+	margin: auto auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+.heade-cantar {
+	display: flex;
+	align-items: center;
+}
+
+#show {
+	background: #F5F5F5;
+	overflow: hidden;
+}
+
+#mainlist {
+	width: 1241px;
+	background: white;
+	margin: 50px auto auto auto;
+}
+
+#listhead {
+	display: flex;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.check {
+	width: 110px;
+}
+
+.img {
+	width: 120px;
+}
+
+.name {
+	width: 380px;
+}
+
+.price {
+	width: 160px;
+}
+
+.num {
+	width: 150px;
+}
+
+.total {
+	width: 200px;
+}
+
+.itemshow {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+#showinfo {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border-bottom: 1px solid #B0B0B0;
+}
+
+.num input {
+	width: 20px;
+}
+
+.num input:nth-child(2) {
+	width: 40px;
+}
+
+#zongji {
+	width: 1226px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid red;
+	margin: 30px auto auto;
+	background:red;
+}
+
+#zjright span {
+	color: orangered;
+	margin-right: 20px;
+}
+
+#zjright .btn {
+	width: 200px;
+	height: 50px;
+	background: orange;
+	border: none;
+}
