@@ -299,7 +299,7 @@ body {
 .meizhuv {
 	width: 69px;
 	height: 84px;
-	background: url(../../images/cl/cl-img/shoujilogo_06.jpg);
+	background: url(/images/cl/cl-img/shoujilogo_06.jpg);
 	float: left;
 	margin-left: ;
 	margin-top: 35px;
@@ -466,8 +466,12 @@ body {
 #delCartGoods {
 	width: 99px;
 	height: 20px;
-	/*background:blue ;*/
+	background-color: white;
 	float: left;
+	outline:0;
+	border: 0;
+	
+	
 }
 
 #djiw {
@@ -493,6 +497,10 @@ body {
 	line-height: 13px;
 	text-align: center;
 }
+.totalPrice{
+font-style: normal;
+font-size: 13px;
+}
 
 .uio,
 .btn {
@@ -502,6 +510,9 @@ body {
 	/*margin-left: ;
 	margin-top: ;*/
 	float: left;
+	outline:0;
+	border: 0;
+	color: white;
 }
 
 #showinfo {
@@ -544,27 +555,28 @@ body {
 }
 
 .goods_name{
-	width:343px ;
-	height:15px ;
+	width:347px ;
+	height:27px ;
 	/*background:red ;*/
-	margin-left:0px ;
-	margin-top:0px ;
+	margin-left:-70px ;
+	margin-top:1px ;
 	float:left;
 	text-align: center;
 	line-height:15px;
 	font-size:15px ;
 }
-.goods_tag{
-	width:334px ;
+.goods_type{
+	width:200px ;
 	height:15px ;
 	/*background:yellow ;*/
 	float: left;
     margin-left:4px ;
-    margin-top:12px;
+    margin-top:8px;
     text-align:left;
     line-height:12px ;
     font-size:14px ;
     text-align: center;
+    color:#CCCCCC;
 }
 .itemshow .goods_price{
 	width:47px ;

@@ -12,3 +12,13 @@ git操作指令规范：
                             git commit -m '备注内容（修改，增删了什么）'
                             git push origin master
 3.出现错误（error）及时联系管理员，数据无价
+
+
+1.开启第二端口localhost：7777；
+2.开启文件夹下鼠标右键选择Git bash here；
+3.开起 gulp connect
+
+
+
+
+
