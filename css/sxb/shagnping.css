@@ -123,10 +123,15 @@ a {
 } */
 
 /* eee */
+.box {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
 #spic {
     width: 500px;
     height: 500px;
-    /*   border: 1px solid #000; */
     float: left;
     position: relative;
     margin: 8px 0;
@@ -146,9 +151,9 @@ a {
     position: absolute;
     left: 0;
     top: 0;
-    height: 250px;
-    width: 250px;
-    /* visibility: hidden; */
+    height: 230px;
+    width: 230px;
+
 }
 
 #bf {
@@ -160,16 +165,15 @@ a {
     float: left;
     overflow: hidden;
     position: relative;
-    left: 10px;
+    left: 510px;
+    top: -500px;
     z-index: 9;
-    /* visibility: hidden; */
-
 }
 
 #bf img {
-
     position: absolute;
-
+    left: 0;
+    top: 0;
 }
 
 #ulist {
@@ -178,32 +182,24 @@ a {
     left: 200px;
     padding-top: 40px;
     width: 300px;
-
     overflow: hidden;
 }
 
 #list {
-
     margin-left: 18px;
     width: 80px;
-
     position: relative;
 }
 
-
 #list li {
-
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     width: 80px;
     height: 80px;
-
-
 }
 
 #list li img {
     width: 80px;
     height: 80px;
-
     overflow: hidden;
 }
 
@@ -214,28 +210,6 @@ a {
     margin-left: 24px;
 }
 
-/* 
-.preview .preview-thumb li {
-    position: relative;
-    display: inline-block;
-    margin: 0 24px;
-    overflow: hidden;
-    height: 102px;
-} */
-
-/* .preview .preview-thumb a {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-} */
-
-/* .preview .preview-thumb img {
-    position: relative;
-    max-width: 80px;
-    max-height: 80px
-} */
-
 /* 右边 */
 .property {
     position: absolute;
@@ -244,7 +218,6 @@ a {
     width: 640px;
     font-size: 12px;
     padding-top: 25px;
-
 }
 
 .property .property-hd {
