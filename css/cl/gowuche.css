@@ -189,7 +189,7 @@ header {
 }
 
 .total {
-	width: 44px;
+	width: 80px;
 	height: 11px;
 	/*background:blue ;*/
 	float: left;
@@ -276,6 +276,12 @@ body {
 	float: left;
 	margin-top: ;
 	margin-left: ;
+}
+
+#zhojinpo{
+	width:20px ;
+	height:22px ;
+	float: left;
 }
 
 .kou {
@@ -386,7 +392,7 @@ body {
 	/*background:blue ;*/
 	float: left;
 	margin-right: 9px;
-	margin-top: 29px;
+	margin-top:-5px;
 	font-size: 12px;
 	line-height: 12px;
 	text-align: center;
@@ -538,7 +544,7 @@ body {
 }
 
 .toip{
-	width:57px ;
+	width:204px ;
 	height:15px ;
 	/*background:red ;*/
 	margin-left:0px ;
@@ -549,15 +555,16 @@ body {
 	font-size:15px ;
 }
 .lopuy{
-	width:173px ;
+	width:210px ;
 	height:12px ;
 	/*background:yellow ;*/
 	float: left;
-    margin-left:0px ;
+    margin-left:5px ;
     margin-top:12px;
     text-align:left;
     line-height:12px ;
     font-size:14px ;
+    text-align: center;
 }
 .itemshow .price{
 	width:74px ;
@@ -600,10 +607,9 @@ body {
 	float:left;
 	margin-top:58px ;
 	margin-left:93px ;
-	line-height:14px;
+	line-height:37px;
 	text-align: center;
 	font-size:14px ;
-	line-height:37px;
 	color: #E52B41;
 	
 }

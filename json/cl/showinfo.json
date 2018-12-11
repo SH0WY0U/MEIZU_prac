@@ -1,0 +1,75 @@
+[
+  {
+  	"bid":"001",
+  	"name":"魅族 note8",
+  	"src":"images/zyq/phone00",
+  	"price":"1298",
+  	"color":"黑色",
+  	"info":"4+64GB"
+  },
+  {
+  	
+  	"bid":"002",
+  	"name":"魅族 16th",
+  	"src":"images/zyq/phone01",
+  	"price":"2698",
+  	"color":"金色",
+  	"info":"4+64GB、6+128GB"
+  },
+  {
+  	
+  	"bid":"003",
+  	"name":"魅族 X8",
+  	"src":"images/zyq/phone03",
+  	"price":"1498",
+  	"color":"黑色",
+  	"info":"4+64GB、6+64GB、6+128GB"
+  },
+  {
+  	"bid":"004",
+  	"name":"魅族 V8 高配版",
+  	"src":"images/zyq/phone04",
+  	"price":"1098",
+  	"color":"金色",
+  	"info":"4+64GB"
+  },
+  {
+  	"bid":"005",
+  	"name":"魅族 15",
+  	"src":"images/zyq/phone05",
+  	"price":"1498",
+  	"color":"黑色",
+  	"info":"4+64GB、4+128GB"
+  },
+  {
+  	"bid":"006",
+  	"name":"魅蓝 E3",
+  	"src":"images/zyq/phone06",
+  	"price":"1799",
+  	"color":"白色",
+  	"info":"4+64GB"
+  },
+   {
+  	"bid":"007",
+  	"name":"魅族 16th Plus",
+  	"src":"images/zyq/phone07",
+  	"price":"3198",
+  	"color":"金色",
+  	"info":"8+128GB、8+256GB"
+  },
+   {
+  	"bid":"008",
+  	"name":"魅族 V8 标配版",
+  	"src":"images/zyq/phone08",
+  	"price":"799",
+  	"color":"黑色",
+  	"info":"3+32GB"
+  }
+  
+
+
+
+
+
+
+]
