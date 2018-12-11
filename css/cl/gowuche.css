@@ -206,7 +206,7 @@ header {
 	/*background:blue ;*/
 	float: left;
 	font-size: 11px;
-	margin-left: 139px;
+	margin-left:127px;
 	margin-top: 20px;
 	line-height: 13px;
 	text-align: center;
@@ -526,12 +526,12 @@ body {
     margin-top:65px ;
 }
 
-.imgghu{
+.goods_image{
 	width:68px ;
 	height:85px ;
     float:left;
     margin-left:45px;
-    margin-top:35px ;
+    margin-top:38px ;
     /*background:red;*/
 }
 .kop{
@@ -543,8 +543,8 @@ body {
     margin-left:40px ;
 }
 
-.toip{
-	width:204px ;
+.goods_name{
+	width:343px ;
 	height:15px ;
 	/*background:red ;*/
 	margin-left:0px ;
@@ -554,20 +554,20 @@ body {
 	line-height:15px;
 	font-size:15px ;
 }
-.lopuy{
-	width:210px ;
-	height:12px ;
+.goods_tag{
+	width:334px ;
+	height:15px ;
 	/*background:yellow ;*/
 	float: left;
-    margin-left:5px ;
+    margin-left:4px ;
     margin-top:12px;
     text-align:left;
     line-height:12px ;
     font-size:14px ;
     text-align: center;
 }
-.itemshow .price{
-	width:74px ;
+.itemshow .goods_price{
+	width:47px ;
 	height:12px ;
 	/*background:bisque ;*/
 	float: left;
@@ -588,7 +588,7 @@ body {
 	height:26px ;
 	/*background:tomato ;*/
 	float: left;
-    margin-top:5px ;
+    margin-top:8px ;
     margin-left:0px ;
     text-align: center;
     line-height:26px;
@@ -601,12 +601,12 @@ body {
 				width:18px;
 			}
  .totals{
-	width:73px ;
+	width:131px ;
 	height:37px ;
 	/*background:red ;*/
 	float:left;
 	margin-top:58px ;
-	margin-left:93px ;
+	margin-left:85px ;
 	line-height:37px;
 	text-align: center;
 	font-size:14px ;
