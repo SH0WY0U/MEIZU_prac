@@ -99,6 +99,23 @@
     background: rgb(212, 207, 207);
     color:#1eb9ee;
 }
+.com_shopcar{
+    position: relative;
+}
+.com_shopcar span{
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    background: #cc0000;
+    color: white;
+    line-height: 15px;
+    position: absolute;
+    right: -5px;
+    top: -2px;;
+    border-radius: 50%;
+    display: none;
+}
 .sec_nav{
     width: 100%;
     height: 0;

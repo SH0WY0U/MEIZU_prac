@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="/css/zyq/reset.css">
+    <link rel="stylesheet" href="/css/zyq/commonheader.css">
+    <link rel="stylesheet" href="/css/zyq/commonfooter.css">
+</head>
+
+<body>
+    <script src="../../js/zyq/jquery-3.3.1.min.js"></script>
+    <header id="header_box"></header>
+    <script>
+        $('#header_box').load('/html/zyq/commonheader.html #header_wrap', function () {
+            $.getScript('/js/zyq/commonheader.js')
+        })
+    </script>
+
+    <footer id="footer_box"></footer>
+    <script>
+        $('#footer_box').load('/html/zyq/commonfooter.html');
+    </script>
+
+</body>
+
+</html>

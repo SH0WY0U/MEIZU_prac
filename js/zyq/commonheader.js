@@ -1,3 +1,4 @@
+// 渲染顶栏数据，增加划入划出效果
 var insertHeader = (function () {
     return {
         init(ele1, ele2, dataUrl, targetUrl) {
@@ -46,4 +47,31 @@ var insertHeader = (function () {
         }
     }
 }())
+// 调用
 insertHeader.init('.sec_pointer', '.sec_nav section', '/json/zyq/list.json', '/html/zyq/goods_info.html')
+
+// 顶部购物车自动检测功能
+var shopCarCountAuto = (function () {
+    return {
+        init(ele) {
+            this.countBox = $(ele);
+            this.tik = setInterval(_ => {
+                this.insertData(this.getData())
+            }, 1000)
+        },
+        insertData(num) {
+            if (num > 0) {
+                this.countBox.html(num);
+                this.countBox.css('display', 'inline-block');
+            }
+        },
+        getData() {
+            if (localStorage.getItem('shopList')) {
+                this.shopList = JSON.parse(localStorage.getItem('shopList'));
+                return this.shopList.length;
+            }
+        }
+    }
+}())
+// 调用
+shopCarCountAuto.init('.com_shopcar span')
