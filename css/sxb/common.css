@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -35,7 +35,7 @@ img {
     display: inline-block;
 } */
 
-.mzlogo {
+/* .mzlogo {
     float: left;
     height: 80px;
     overflow: hidden;
@@ -133,7 +133,7 @@ img {
 }
 
 /* 个人中心 注册登录 */
-.layout-user-downmenu {
+/* .layout-user-downmenu {
     display: none;
     position: absolute;
     right: -25px;
@@ -250,7 +250,7 @@ img {
 
 .header-nav .header-nav-item {
     /* position: relative; */
-    top: 0;
+    /* top: 0;
     left: 0;
     float: left;
     margin: 0 20px 0 15px;
@@ -266,8 +266,8 @@ img {
     line-height: 80px;
     transition: color .2s linear;
     font-size: 14px;
-}
-
+} */
+/* 
 .header-nav-item .nav-child {
     display: none;
     position: absolute;
@@ -280,10 +280,10 @@ img {
     z-index: 2;
     padding-top: 30px;
     /* opacity: 0; */
-    transition: all .2s ease-in-out;
-    background: #fff;
-}
-
+    /* transition: all .2s ease-in-out; */
+    /* background: #fff; */
+/* } */ */
+/* 
 .child-list {
     position: absolute;
     left: 50%;
@@ -295,10 +295,10 @@ img {
     width: 142px;
     height: 140px;
     /* opacity: 0; */
-    font-size: 12px;
-}
+    /* font-size: 12px; */
+/* } */ */
 
-.child-list-item .nav-child-link {
+/* .child-list-item .nav-child-link {
     opacity: 1;
     transition: opacity .2s ease-in-out;
 }
@@ -336,8 +336,7 @@ img {
     font-size: 12px;
     transition: opacity .2s ease-in-out;
     margin-right: 1px
-}
-
+} */ */
 
 /* footer尾部 */
 .layout-footer {
