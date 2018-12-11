@@ -18,11 +18,10 @@ var insertHeader = (function () {
             })
             $('#header_wrap').on('mouseleave', function () {
                 console.log(888)
-                $('.sec_nav').animate({ 'height': 0 }, 'fast', 'linear', _ => {
-                    _this.navAll.css('display', 'none');
-                    $('#header_wrap').css('background', 'transparent');
-                    $('.sec_nav').css('background', 'transparent');
-                });
+                _this.navAll.css('display', 'none');
+                $('#header_wrap').css('background', 'transparent');
+                $('.sec_nav').css('background', 'transparent');
+                $('.sec_nav').css('height', 0)
             })
         },
         getData(dataUrl, targetUrl) {
