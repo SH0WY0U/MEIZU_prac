@@ -22,7 +22,7 @@ var insertListData = (function () {
                 if (data[i]["show_image"]) {
                     this.goods.eq(i).children('img').attr('src', data[i]["show_image"]);
                 } else {
-                    this.goods.eq(i).children('img').attr('src', data[i][this.data[i][j]["goods_id"]]);
+                    this.goods.eq(i).children('img').attr('src', data[i]["goods_image"]);
                     this.goods.eq(i).children('.goods_name').html(data[i]["goods_name"]);
                     this.goods.eq(i).children('.goods_tag').html(data[i]["goods_tag"]);
                     this.goods.eq(i).children('.goods_price').html('<i>￥</i>' + data[i]["goods_price"]);
