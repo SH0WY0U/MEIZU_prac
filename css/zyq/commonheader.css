@@ -3,12 +3,6 @@
     height: 82px;
     background: transparent;
 }
-#header_wrap:hover{
-    background: red;
-}
-#header_wrap:hover .com_nav{
-    background: red;
-}
 #header_wrap:hover .com_nav a{
     color: #515151;
 } 
@@ -46,7 +40,7 @@
 }
 .com_nav a{
     font-size: 14px;
-    color: white;
+    color: #515151;
     margin-right:35px;
 }
 .com_searcher{
@@ -103,13 +97,11 @@
     background: rgb(212, 207, 207);
 }
 .sec_nav{
-    width: 1240px;
-    height: 190px;
-    background: white;
+    width: 100%;
+    /* height: 190px; */
     position: absolute;
-    left: 50%;
     top: 100%;
-    transform: translateX(-50%);
+    left: 0;
 }
 .sec_nav img{
     width: 110px;
@@ -117,10 +109,11 @@
 }
 .sec_nav section{
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 0;
-    height: 190px;
-    width: 100%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 1240px;
     display: flex;
     justify-content: space-around;
     align-items: center;
