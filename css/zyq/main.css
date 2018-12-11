@@ -1,21 +1,36 @@
-html{
+html,body{
 	background: #f4f4f4;
+	position: relative;
 }
 .content{
 	width: 1240px;
 	margin: 0 auto;
 }
 
-/* 头部导航栏开始 */
+/* 首页通用头部部分修改 */
+#header_box{
+	width: 100%;
 
-
-/* 头部导航栏结束 */
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: rgba(0, 0,0, 0);
+}
+#header_box a{
+	color: white;
+}
+#header_box:hover a{
+	color:#515151;
+}
+/* 首页通用头部部分修改 */
 
 /* 轮播图开始 */
 
 #banner {
 	width: 100%;
 	height: 670px;
+	/* position: relative; */
 }
 
 .client {
@@ -240,3 +255,4 @@ html{
 	display: none;
 }
 /* 声学区,配件区,生活区通用样式开始结束 */
+

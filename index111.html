@@ -6,10 +6,19 @@
     <title>魅族官网</title>
     <link rel="stylesheet" href="css/zyq/reset.css">
     <link rel="stylesheet" href="css/zyq/main.css">
+    <link rel="stylesheet" href="css/zyq/commonheader.css">
+    <link rel="stylesheet" href="css/zyq/commonfooter.css">
+
 </head>
 
 <body>
-    <header></header>
+    <script src="/js/zyq/jquery-3.3.1.min.js"></script>
+    <header id="header_box"></header>
+    <script>
+        $('#header_box').load('/html/zyq/commonheader.html #header_wrap', function () {
+            $.getScript('/js/zyq/commonheader.js')
+        })
+    </script>
     <div id="banner">
         <div class="client clearfix">
             <ul id="box">
@@ -365,15 +374,17 @@
             </div>
         </div>
     </div>
+    <script src="/js/zyq/main.js"></script>
+    <footer id="footer_box"></footer>
+    <script>
+        $('#footer_box').load('/html/zyq/commonfooter.html');
+    </script>
 
 
 
 
 
 
-
-    <script src="js/zyq/jquery-3.3.1.min.js"></script>
-    <script src="js/zyq/main.js"></script>
 
 </body>
 
