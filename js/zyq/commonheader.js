@@ -38,7 +38,7 @@ var insertHeader = (function () {
             for (var i = 0; i < this.navAll.length; i++) {
                 for (var j = 0; j < this.data[i].length; j++) {
                     this.navAll.eq(i).children('a').eq(j).attr('href', targetUrl + '?' + 'goods_id=' + this.data[i][j]["goods_id"]);
-                    this.navAll.eq(i).children('a').eq(j).children('img').attr('src', 'http://localhost:7777/' + [this.data[i][j]["goods_image"]])
+                    this.navAll.eq(i).children('a').eq(j).children('img').attr('src', [this.data[i][j]["goods_image"]])
                     this.navAll.eq(i).children('a').eq(j).children('span').eq(0).html([this.data[i][j]["goods_name"]])
                     this.navAll.eq(i).children('a').eq(j).children('span').eq(1).html('<i>￥</i>' + [this.data[i][j]["goods_price"]])
                 }

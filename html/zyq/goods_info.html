@@ -151,7 +151,7 @@
 
     <script>
         var str = parseInt(location.search.slice(1).split("=")[1]);
-        $.get("../../json/zyq/list.json", res => {
+        $.get("/json/zyq/list.json", res => {
             console.log(res[str])
         })
     </script>
