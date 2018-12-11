@@ -43,7 +43,7 @@ a {
 .banjin{
 	width:1310px ;
 	height:750px ;
-	background:url(../../images/cl/cl-img/banner.png);
+	background:url(/images/cl/cl-img/banner.png);
 	float: left;
 }
 .hedad{
@@ -226,7 +226,7 @@ a {
 .xinnang{
 	width:33px ;
 	height:32px ;
-	background:url(../../images/cl/cl-img/aa1_05.jpg);
+	background:url(/images/cl/cl-img/aa1_05.jpg);
 	float:left;
 	margin-left:143px ;
 	margin-top:36px ;
@@ -234,7 +234,7 @@ a {
 .wenxi{
 	width:33px ;
 	height:32px;
-	background:url(../../images/cl/cl-img/aa2_03.jpg);
+	background:url(/images/cl/cl-img/aa2_03.jpg);
 	float:left ;
 	margin-left:14px ;
 	margin-top:36px;
@@ -242,7 +242,7 @@ a {
 .kongjian{
 	width:33px;
 	height:32px;
-	background:url(../../images/cl/cl-img/aa3_03.jpg);
+	background:url(/images/cl/cl-img/aa3_03.jpg);
 	float:left;
 	margin-left:15px ;
 	margin-top: 36px;

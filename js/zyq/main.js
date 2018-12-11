@@ -1,4 +1,4 @@
-// 商品展示渲染
+// 商品展示渲染封装
 var insertListData = (function () {
     return {
         init(swiperEle, arr, ele, dataUrl, targetUrl) {
@@ -32,7 +32,8 @@ var insertListData = (function () {
         }
     }
 }())
-insertListData.init('.swiper_guys', [7, 2, 0, 3, 11], '.goods_box', 'json/zyq/list.json', 'php/zyq/goods_info.php')
+// 调用(传入：轮播图内a标签类名，轮播展示商品索引数组，全部商品框a标签类名，商品信息json数据链接，跳转的商品详情页链接)
+insertListData.init('.swiper_guys', [7, 2, 0, 3, 11], '.goods_box', 'http://localhost:7777/json/zyq/list.json', 'http://localhost:7777/html/zyq/goods_info.html');
 
 // 轮播图功能封装
 var swiper = (function () {
@@ -83,5 +84,5 @@ var swiper = (function () {
     }
 }())
 // 调用轮播图
-swiper.init('.client')
+swiper.init('.client');
 

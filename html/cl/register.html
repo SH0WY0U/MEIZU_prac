@@ -3,17 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../../css/cl/zhuce.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/cl/zhuce.css"/>
 	</head>
 	<body>
 	<div class="head">
 		<div class="bander">
 			<div class="boox">
-				<div class="logo"><img src="../../images/cl/cl-img/logo.jpg"></div>
+				<div class="logo"><img src="/images/cl/cl-img/logo.jpg"></div>
 			</div>
 			<div class="banjin">
 				<div class="banke">
-					<form action="../../php/cl/register.php" method="post">
+					<form action="/php/cl/register.php" method="post">
 					<div class="zhucezhanhao">注册Flyme账号</div>
 			                <div class="yonghumi"> 用户名<input id="uname" type="text" name="uname" /></div>
 			                <div class="mima">&ensp;密码<input type="password" id="upwd"  name="upwd"/></div>
@@ -41,7 +41,7 @@
 	</div>
 	</body>
 </html>
-<script src="../../js/cl/jquery.min.js"></script>
+<script src="/js/cl/jquery.min.js"></script>
 <script type="text/javascript">
 	var uname = document.getElementById("uname");
 	var sub = document.getElementById("sub");
@@ -68,7 +68,7 @@
 		//		});
 		$.ajax({
 			type: "get",
-			url: "../../php/cl/unameCheck.php",
+			url: "/php/cl/unameCheck.php",
 			data: {
 				uname: this.value
 			},

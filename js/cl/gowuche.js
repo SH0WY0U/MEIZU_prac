@@ -58,7 +58,7 @@ class ShowCartGoodsInfo {
 
 		var _this = this;
 
-		$.getJSON("../../json/zyq/list.json", function(res) {
+		$.getJSON("/json/zyq/list.json", function(res) {
 
 			_this.goods = res;
 
@@ -80,7 +80,7 @@ class ShowCartGoodsInfo {
 		                    	<input type="checkbox" name="" id="" value="" class="checkOne" />
 		                    	<input class="goodBid" type="hidden" value="${this.CartGoodsInfo[j].bid}"/>
 		                    	</li>
-		                    	<li class="goods_image"><img width="68px" height="85px"  src="../../images/zyq/phone00.jpg ${res[i].src}"/></li>
+		                    	<li class="goods_image"><img width="68px" height="85px"  src="/images/zyq/phone00.jpg ${res[i].src}"/></li>
 		                    	<li class="kop">${res[i].kop}</li>
 		                    	<li class="goodprice">${res[i].goods_price}</li>
 		                    	<li class="goodcount" style="width:50px ;margin-left:190px"> ${this.CartGoodsInfo[j].count}</li>
