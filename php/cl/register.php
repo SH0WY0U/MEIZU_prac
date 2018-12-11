@@ -12,8 +12,8 @@
 	$row = mysqli_query($con,$sql);
 	
 	if($row){
-		echo "<script>alert('注册成功');location.href = '../../html/cl/login.html'</script>";
+		echo "<script>alert('注册成功');location.href = '/html/cl/login.html'</script>";
 	}else{
-		echo "<script>alert('注册失败');location.href = '../../html/cl/register.html'</script>";
+		echo "<script>alert('注册失败');location.href = '/html/cl/register.html'</script>";
 	}
 ?>

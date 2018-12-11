@@ -42,7 +42,7 @@ a {
 .banjin{
 	width:1310px ;
 	height:751px ;
-	background:url(../../images/cl/cl-img/zhuce_02.jpg);
+	background:url(/images/cl/cl-img/zhuce_02.jpg);
 	float: left;
 }
 
@@ -60,7 +60,7 @@ a {
 .shouji-right{
 	width:35px ;
 	height:74px ;
-	background:url(../../images/cl/cl-img/shoji_03.jpg);
+	background:url(/images/cl/cl-img/shoji_03.jpg);
 	float:right;
 }
 .zhanghao{
@@ -118,7 +118,7 @@ a {
 .bonp{
 	width:299px ;
 	height:44px ;
-	background:url(../../images/cl/cl-img/dianji_03.jpg);
+	background:url(/images/cl/cl-img/dianji_03.jpg);
 	float:left;
 	margin-top:23px ;
 	margin-left:35px ;
@@ -253,7 +253,7 @@ a {
 .xinnang{
 	width:33px ;
 	height:32px ;
-	background:url(../../images/cl/cl-img/aa1_05.jpg);
+	background:url(/images/cl/cl-img/aa1_05.jpg);
 	float:left;
 	margin-left:143px ;
 	margin-top:36px ;
@@ -261,7 +261,7 @@ a {
 .wenxi{
 	width:33px ;
 	height:32px;
-	background:url(../../images/cl/cl-img/aa2_03.jpg);
+	background:url(/images/cl/cl-img/aa2_03.jpg);
 	float:left ;
 	margin-left:14px ;
 	margin-top:36px;
@@ -269,7 +269,7 @@ a {
 .kongjian{
 	width:33px;
 	height:32px;
-	background:url(../../images/cl/cl-img/aa3_03.jpg);
+	background:url(/images/cl/cl-img/aa3_03.jpg);
 	float:left;
 	margin-left:15px ;
 	margin-top: 36px;
