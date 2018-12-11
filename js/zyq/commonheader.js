@@ -46,4 +46,4 @@ var insertHeader = (function () {
         }
     }
 }())
-insertHeader.init('.sec_pointer', '.sec_nav section', 'http://localhost:7777/json/zyq/list.json', 'http://localhost:7777/html/zyq/goods_info.html')
+insertHeader.init('.sec_pointer', '.sec_nav section', '/json/zyq/list.json', '/html/zyq/goods_info.html')

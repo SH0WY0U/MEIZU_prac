@@ -34,7 +34,7 @@
                         <a href="javascript:;" class="-link">常见问题</a>
                     </li>
                 </ul>
-                <span class="-name">
+                <span class="-name goods_name">
                     魅族 Note8
                 </span>
             </div>
@@ -44,30 +44,30 @@
                 <div class="preview-b">
                     <div class="box">
                         <div id="spic">
-                            <img src="/images/sxb/main/724.png" alt="">
+                            <img class="goods_image" src="/images/zyq/phone00.jpg" alt="">
                             <div id="sf"></div>
                         </div>
                         <div id="bf">
-                            <img src="/images/sxb/main/724.png" alt="" id="bpic">
+                            <img class="goods_image" src="/images/zyq/phone00.jpg" alt="" id="bpic">
                         </div>
                     </div>
 
                     <div id="ulist">
                         <ul id="list">
-                            <li><img src="/images/sxb/main/724.png" alt=""></li>
+                            <li><img class="goods_image" src="/images/zyq/phone00.jpg" alt=""></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="property">
                 <div class="property-hd">
-                    <h1>魅族 16th</h1>
-                    <p class="mod-info ">骁龙845 AI加速 屏幕下指纹 AI双摄光学防抖</p>
+                    <h1 class="goods_name">魅族 16th</h1>
+                    <p class="mod-info goods_info">骁龙845 AI加速 屏幕下指纹 AI双摄光学防抖</p>
                 </div>
                 <div class="property-sell">
                     <div class="mod-price">
                         <small>¥</small>
-                        <span id="J_price" class="vm-money">2698.00</span>
+                        <span id="J_price" class="vm-money goods_price">2698.00</span>
                     </div>
                 </div>
                 <div class="property-sibling">
@@ -76,7 +76,7 @@
                             型<span class="s-space"></span><span class="s-space"></span>号
                         </dt>
                         <dd class="clearfix">
-                            <a href="javascript:;">魅族16th</a>
+                            <a class="goods_name" href="javascript:;">魅族16th</a>
                         </dd>
                     </dl>
                 </div>
@@ -99,9 +99,7 @@
                     <dl class="property-set-sale">
                         <dt class="vm-metatit">分<span class="s-space"></span><span class="s-space"></span>类</dt>
                         <dd>
-                            <a href="javascript:;"><span>6+64GB</span></a>
-                            <a href="javascript:;"><span>6+64GB</span></a>
-
+                            <a class="goods_type" href="javascript:;"><span>6+64GB</span></a>
                         </dd>
                     </dl>
                     <dl class="property-set-sale">
@@ -148,57 +146,48 @@
     <script>
         $('#footer_box').load('/html/zyq/commonfooter.html');
     </script>
-
     <script>
-        var str = parseInt(location.search.slice(1).split("=")[1]);
-        $.get("/json/zyq/list.json", res => {
-            console.log(res[str])
-        })
-    </script>
-    <script>
-            (function () {
-                var wrap = $('.preview-b');
-                var spic = $('#spic');
-                var sf = $('#sf');
-                var bpic = $('#bpic');
-                var bf = $('#bf');
-                var spicul = $('#list ul');
-                var spicli = $('#list ul li');
+        (function () {
+            var wrap = $('.preview-b');
+            var spic = $('#spic');
+            var sf = $('#sf');
+            var bpic = $('#bpic');
+            var bf = $('#bf');
+            var spicul = $('#list ul');
+            var spicli = $('#list ul li');
 
-                spic.mouseenter(function () {
-                    bf.css('display', 'block');
-                    sf.css('display', 'block');
-                    /*   sf.css({
-                          width: spic.width() * bf.width() / bpic.width(),
-                          height: spic.height() * bf.height() / bpic.height()
-                      }); */
-                    //var $scale = bf.width() / wrap.width();
-                    var $scale = bpic.height() / wrap.height();
-                    console.log($scale);
-                    $(this).on('mousemove', function (e) {
-                        var l = e.pageX - wrap.offset().left - sf.width() / 2;
-                        var t = e.pageY - wrap.offset().top - sf.height() / 2;
-                        var left = spic.width() - sf.width();
-                        var top = spic.height() - sf.height();
-                        l = l < 0 ? 0 : (l > left ? left : l);
-                        t = t < 0 ? 0 : (t > top ? top : t);
-
-                        sf.css({
-                            left: l,
-                            top: t
-                        });
-                        bpic.css({
-                            left: -l * 2.2,
-                            top: -t * 2.2
-                        })
-
+            spic.mouseenter(function () {
+                bf.css('display', 'block');
+                sf.css('display', 'block');
+                /*   sf.css({
+                      width: spic.width() * bf.width() / bpic.width(),
+                      height: spic.height() * bf.height() / bpic.height()
+                  }); */
+                //var $scale = bf.width() / wrap.width();
+                var $scale = bpic.height() / wrap.height();
+                console.log($scale);
+                $(this).on('mousemove', function (e) {
+                    var l = e.pageX - wrap.offset().left - sf.width() / 2;
+                    var t = e.pageY - wrap.offset().top - sf.height() / 2;
+                    var left = spic.width() - sf.width();
+                    var top = spic.height() - sf.height();
+                    l = l < 0 ? 0 : (l > left ? left : l);
+                    t = t < 0 ? 0 : (t > top ? top : t);
+                    sf.css({
+                        left: l,
+                        top: t
+                    });
+                    bpic.css({
+                        left: -l * 2.2,
+                        top: -t * 2.2
                     })
-                });
-                spic.mouseleave(function () {
-                    bf.css('display', 'none');
-                    sf.css('display', 'none');
-                });
-            })(jQuery);
+                })
+            });
+            spic.mouseleave(function () {
+                bf.css('display', 'none');
+                sf.css('display', 'none');
+            });
+        })(jQuery);
     </script>
 </body>
 
