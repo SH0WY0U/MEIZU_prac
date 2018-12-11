@@ -1,0 +1,8 @@
+.content{
+    width: 1240px;
+    margin: 0 auto;
+}
+#goods_list img{
+    width: 100px;
+    height: 100px;
+}

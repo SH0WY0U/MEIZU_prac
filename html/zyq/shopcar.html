@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/zyq/reset.css">
     <link rel="stylesheet" href="/css/zyq/commonheader.css">
     <link rel="stylesheet" href="/css/zyq/commonfooter.css">
+    <link rel="stylesheet" href="/css/zyq/shopcar.css">
 </head>
 
 <body>
@@ -19,6 +20,48 @@
             $.getScript('/js/zyq/commonheader.js')
         })
     </script>
+    <div id="goods_list">
+        <div>
+            <section class="menu_nav content">
+                <input type="checkbox" name="" id="">
+                <span>全选</span>
+                <i>单价（元）</i>
+                <i>数量</i>
+                <i>小计（元）</i>
+                <a href="javascript:;">编辑</a>
+            </section>
+        </div>
+        <ul class="shoplist content">
+            <li class="exam">
+                <input type="checkbox" name="" id="">
+                <img src="/images/zyq/phone00.jpg" alt="">
+                <section>
+                    <p>魅族V8 高配版</p>
+                    <span>4+64GB</span>
+                </section>
+                <span>￥1098</span>
+                <div>
+                    <i>-</i>
+                    <input type="text">
+                    <i>+</i>
+                </div>
+                <b>￥1098</b>
+                <button></button>
+            </li>
+        </ul>
+        <div>
+            <section class="total_price">
+                <input type="checkbox" name="" id="">
+                <span>全选</span>
+                <em>删除选中的标签</em>
+                <p>共<i>0</i>件商品，已选择<i>0</i>件</p>
+                <span>合计（不含运费）：</span>
+                <strong>￥1098</strong>
+                <button>去结算</button>
+            </section>
+        </div>
+    </div>
+
 
     <footer id="footer_box"></footer>
     <script>
