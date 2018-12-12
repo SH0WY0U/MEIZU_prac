@@ -31,7 +31,7 @@ var insertHeader = (function () {
                 this.data[1] = res.slice(11, 19);
                 this.data[2] = res.slice(24, 32);
                 this.data[3] = res.slice(37, 45);
-                console.log(this.data);
+                // console.log(this.data);
                 this.insertData(targetUrl)
             })
         },

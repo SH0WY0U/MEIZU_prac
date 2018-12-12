@@ -38,7 +38,7 @@ var goodsInfo = (function () {
         },
         getData(url) {
             $.get(url, res => {
-                console.log(res[this.index])
+                // console.log(res[this.index])
                 this.insertData(res[this.index])
             })
         },
@@ -60,7 +60,7 @@ var goodsInfo = (function () {
                 goods_type: data.goods_type[0],
                 goods_count: 1
             }
-            console.log(this.info);
+            // console.log(this.info);
         },
         setItem(data) {
             // 现获取原有数据

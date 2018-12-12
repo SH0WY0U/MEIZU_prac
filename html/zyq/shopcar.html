@@ -23,7 +23,7 @@
     <div id="goods_list">
         <div>
             <section class="menu_nav content">
-                <input type="checkbox" name="" id="">
+                <input type="checkbox" class="check_all" name="" id="">
                 <span>全选</span>
                 <i>单价（元）</i>
                 <i>数量</i>
@@ -33,7 +33,7 @@
         </div>
         <ul class="shoplist content">
             <li class="exam">
-                <input type="checkbox" name="" id="">
+                <input type="checkbox" class="check_one" name="" id="">
                 <img src="/images/zyq/phone00.jpg" alt="">
                 <section>
                     <p>魅族V8 高配版</p>
@@ -41,17 +41,29 @@
                 </section>
                 <span>￥1098</span>
                 <div>
-                    <i>-</i>
-                    <input type="text">
-                    <i>+</i>
+                    <i>-</i><input type="text"><i>+</i>
                 </div>
                 <b>￥1098</b>
-                <button></button>
+                <button>X</button>
+            </li>
+            <li class="exam">
+                <input type="checkbox" class="check_one" name="" id="">
+                <img src="/images/zyq/phone00.jpg" alt="">
+                <section>
+                    <p>魅族V8 高配版</p>
+                    <span>4+64GB</span>
+                </section>
+                <span>￥1098</span>
+                <div>
+                    <i>-</i><input type="text"><i>+</i>
+                </div>
+                <b>￥1098</b>
+                <button>X</button>
             </li>
         </ul>
         <div>
-            <section class="total_price">
-                <input type="checkbox" name="" id="">
+            <section class="total_price content">
+                <input type="checkbox" class="check_all" name="" id="">
                 <span>全选</span>
                 <em>删除选中的标签</em>
                 <p>共<i>0</i>件商品，已选择<i>0</i>件</p>
@@ -61,7 +73,7 @@
             </section>
         </div>
     </div>
-
+    <script src="/js/zyq/shopcar.js"></script>
 
     <footer id="footer_box"></footer>
     <script>

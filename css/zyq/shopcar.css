@@ -1,3 +1,4 @@
+/* 菜单栏开始 */
 .content{
     width: 1240px;
     margin: 0 auto;
@@ -5,4 +6,147 @@
 #goods_list img{
     width: 100px;
     height: 100px;
+}
+#goods_list input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-left: 24px;
+}
+#goods_list input[type="text"]{
+    height: 24px;
+    width: 35px;
+    border-top: 1px solid #efefef; 
+    border-bottom: 1px solid #efefef; 
+    border-left: 0;
+    border-right: 0;
+    line-height: 24px;
+}
+.menu_nav{
+    height: 49px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+.menu_nav span{
+    margin-left:9px; 
+    margin-right:537px; 
+}
+.menu_nav i{
+    color: #adadad;
+}
+.menu_nav a{
+    color: #00c3f5;
+}
+.menu_nav i:nth-of-type(1){
+margin-right:165px; 
+}
+.menu_nav i:nth-of-type(2){
+margin-right:137px; 
+}
+.menu_nav i:nth-of-type(3){
+margin-right:136px; 
+}
+/* 菜单栏结束 */
+
+/* 购物车内容开始 */
+.shoplist{
+}
+.shoplist li{
+    height: 149px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+}
+.shoplist input[type="checkbox"]{
+    margin-right:30px; 
+}
+.shoplist section{
+    margin-left: 19px;
+    width: 192px;
+    margin-right:228px; 
+}
+.shoplist section p{
+    font-size: 16px;
+}
+.shoplist span{
+    color: #8c8c8c;
+}
+.shoplist div{
+    width: 87px;
+    height: 26px;
+    margin-left: 150px;
+    margin-right: 110px;
+    display: flex;
+    align-items: center;
+}
+.shoplist div i{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    border: 1px solid #efefef;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.shoplist li>span{
+    font-size: 16px;
+    margin-left:0px; 
+}
+.shoplist li>b{
+    font-size: 16px;
+    color: #e02b41;
+    margin-right: 140px;
+}
+.shoplist button{
+    width: 25px;
+    height: 25px;
+    border:0;
+    outline: none;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* 购物车内容栏结束 */
+
+/* 购物车结算栏开始 */
+.total_price{
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.total_price span:nth-of-type(1){
+    margin-left: 9px;
+    margin-right: 16px;
+}   
+.total_price  em{
+    margin-right: 28px;
+}
+.total_price p{
+    margin-right: 576px;
+}
+.total_price strong{
+    margin-right: 58px;
+}
+.total_price button{
+    width: 98px;
+    height: 34px;
+    border-radius: 1px;
+    background: #f66567;
+    color: white;
+    border: 0;
+}
+.total_price em,.total_price p,.total_price span:nth-of-type(2){
+    color: #8c8c8c;
+}
+.total_price p i:nth-of-type(2){
+    color:#00c3f5;
+}
+.total_price strong{
+    font-size: 20px;
+    color:#e02b41;
 }
