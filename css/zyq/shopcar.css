@@ -57,11 +57,12 @@ margin-right:136px;
 .shoplist li{
     height: 149px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
     width: 100%;
+    position: relative;
 }
 .shoplist input[type="checkbox"]{
     margin-right:30px; 
@@ -80,10 +81,12 @@ margin-right:136px;
 .shoplist div{
     width: 87px;
     height: 26px;
-    margin-left: 150px;
-    margin-right: 110px;
     display: flex;
     align-items: center;
+    position: absolute;
+    left: 802px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .shoplist div i{
     display: inline-block;
@@ -97,12 +100,18 @@ margin-right:136px;
 }
 .shoplist li>span{
     font-size: 16px;
-    margin-left:0px; 
+    position: absolute;
+    left: 615px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .shoplist li>b{
     font-size: 16px;
     color: #e02b41;
-    margin-right: 140px;
+    position: absolute;
+    left: 985px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .shoplist button{
     width: 25px;
@@ -110,8 +119,11 @@ margin-right:136px;
     border:0;
     outline: none;
     border-radius: 50%;
-    margin-right: 20px;
     cursor: pointer;
+    position: absolute;
+    left: 1195px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 /* 购物车内容栏结束 */
 
@@ -121,13 +133,21 @@ margin-right:136px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .total_price span:nth-of-type(1){
     margin-left: 9px;
     margin-right: 14px;
 }   
+.total_price span:nth-of-type(2){
+    position: absolute;
+    left: 860px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .total_price  em{
     margin-right: 26px;
+    cursor: pointer;
 }
 .total_price p{
     margin-right: 574px;
