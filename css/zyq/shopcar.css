@@ -11,6 +11,7 @@
     height: 20px;
     width: 20px;
     margin-left: 24px;
+    cursor: pointer;
 }
 #goods_list input[type="text"]{
     height: 24px;
@@ -20,6 +21,8 @@
     border-left: 0;
     border-right: 0;
     line-height: 24px;
+    text-align: center;
+    cursor: pointer;
 }
 .menu_nav{
     height: 49px;
@@ -51,12 +54,10 @@ margin-right:136px;
 /* 菜单栏结束 */
 
 /* 购物车内容开始 */
-.shoplist{
-}
 .shoplist li{
     height: 149px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
@@ -92,6 +93,7 @@ margin-right:136px;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+    cursor: pointer;
 }
 .shoplist li>span{
     font-size: 16px;
@@ -109,6 +111,7 @@ margin-right:136px;
     outline: none;
     border-radius: 50%;
     margin-right: 20px;
+    cursor: pointer;
 }
 /* 购物车内容栏结束 */
 
@@ -116,21 +119,21 @@ margin-right:136px;
 .total_price{
     height: 70px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 .total_price span:nth-of-type(1){
     margin-left: 9px;
-    margin-right: 16px;
+    margin-right: 14px;
 }   
 .total_price  em{
-    margin-right: 28px;
+    margin-right: 26px;
 }
 .total_price p{
-    margin-right: 576px;
+    margin-right: 574px;
 }
 .total_price strong{
-    margin-right: 58px;
+    margin-right: 56px;
 }
 .total_price button{
     width: 98px;
@@ -139,6 +142,7 @@ margin-right:136px;
     background: #f66567;
     color: white;
     border: 0;
+    cursor: pointer;
 }
 .total_price em,.total_price p,.total_price span:nth-of-type(2){
     color: #8c8c8c;
