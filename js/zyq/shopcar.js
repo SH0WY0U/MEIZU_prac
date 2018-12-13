@@ -80,6 +80,7 @@ var shopCarList = (function () {
             this.removeBtn.click(function () {
                 _this.removeLi([$(this).parent().index()])
                 $(this).parent().remove();
+                window.location.reload();
                 _this.insertTotal();
             })
             this.removeAllBtn.click(_ => {
