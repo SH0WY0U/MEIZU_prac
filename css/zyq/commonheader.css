@@ -65,36 +65,6 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.com_searcher input:hover+ul{
-    display: block;
-}
-.com_searcher ul{
-    position: absolute;
-    top:100%;
-    left: 10px;
-    z-index: 9999;
-    width: 150px;
-    background: white;
-    display: none;
-}
-.com_searcher ul:hover{
-    display: block;
-}
-.com_searcher li{
-    width: 100%;
-    height: 25px;
-}
-.com_searcher li a{
-    display: block;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    font-size: #515151;
-}
-.com_searcher ul a:hover{
-    font-size: #515151;
-    background: rgb(219, 214, 214);
-}
 .com_user img,.com_shopcar img{
     width: 30px;
     height: 30px;
