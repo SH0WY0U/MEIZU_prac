@@ -28,6 +28,7 @@ var insertHeader = (function () {
         getData(dataUrl, targetUrl) {
             $.get(dataUrl, res => {
                 res = JSON.parse(res);
+                this.outData = res;
                 this.data[0] = res.slice(0, 8);
                 this.data[1] = res.slice(11, 19);
                 this.data[2] = res.slice(24, 32);
@@ -76,3 +77,4 @@ var shopCarCountAuto = (function () {
 }())
 // 调用
 shopCarCountAuto.init('.com_shopcar span')
+
