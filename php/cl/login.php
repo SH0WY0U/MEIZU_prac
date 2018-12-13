@@ -16,7 +16,7 @@
 	
 	if($row){
 		if($row["upwd"] == $upwd){
-			echo "<script>alert('登录成功');location.href = 'index111.html?usename=$uname'</script>";
+			echo "<script>alert('登录成功');location.href = 'index.html'</script>";
 		}else{
 			echo "<script>alert('密码有误，请重新登录');location.href = '/html/cl/login.html'</script>";
 		}
