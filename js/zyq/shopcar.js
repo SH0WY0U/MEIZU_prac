@@ -89,7 +89,6 @@ var shopCarList = (function () {
                 window.location.reload();
                 this.insertTotal();
             })
-
         },
         insertData(data) {
             $('.shoplist').html('');

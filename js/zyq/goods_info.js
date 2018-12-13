@@ -88,4 +88,4 @@ var goodsInfo = (function () {
         }
     }
 }())
-goodsInfo.init('http://10.36.141.81:8686/program0/MEIZU_prac/php/zyq/json_tunnel.php')
+goodsInfo.init(getApi.getShopJson)
