@@ -27,6 +27,7 @@ var insertHeader = (function () {
         },
         getData(dataUrl, targetUrl) {
             $.get(dataUrl, res => {
+                res = JSON.parse(res);
                 this.data[0] = res.slice(0, 8);
                 this.data[1] = res.slice(11, 19);
                 this.data[2] = res.slice(24, 32);
@@ -48,7 +49,7 @@ var insertHeader = (function () {
     }
 }())
 // 调用
-insertHeader.init('.sec_pointer', '.sec_nav section', '/json/zyq/list.json', '/html/zyq/goods_info.html')
+insertHeader.init('.sec_pointer', '.sec_nav section', 'http://10.36.141.81:8686/program0/MEIZU_prac/php/zyq/json_tunnel.php', '/html/zyq/goods_info.html')
 
 // 顶部购物车自动检测功能
 var shopCarCountAuto = (function () {

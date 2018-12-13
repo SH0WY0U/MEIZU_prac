@@ -38,6 +38,7 @@ var goodsInfo = (function () {
         },
         getData(url) {
             $.get(url, res => {
+                res = JSON.parse(res);
                 // console.log(res[this.index])
                 this.insertData(res[this.index])
             })
@@ -87,4 +88,4 @@ var goodsInfo = (function () {
         }
     }
 }())
-goodsInfo.init('/json/zyq/list.json')
+goodsInfo.init('http://10.36.141.81:8686/program0/MEIZU_prac/php/zyq/json_tunnel.php')

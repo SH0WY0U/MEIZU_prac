@@ -9,6 +9,7 @@ var insertListData = (function () {
         },
         getData(dataUrl, targetUrl) {
             $.get(dataUrl, (res) => {
+                res = JSON.parse(res);
                 console.log(res);
                 this.insertData(res, targetUrl);
             })
@@ -33,7 +34,7 @@ var insertListData = (function () {
     }
 }())
 // 调用(传入：轮播图内a标签类名，轮播展示商品索引数组，全部商品框a标签类名，商品信息json数据链接，跳转的商品详情页链接)
-insertListData.init('.swiper_guys', [7, 2, 0, 3, 11], '.goods_box', '/json/zyq/list.json', '/html/zyq/goods_info.html');
+insertListData.init('.swiper_guys', [7, 2, 0, 3, 11], '.goods_box', 'http://10.36.141.81:8686/program0/MEIZU_prac/php/zyq/json_tunnel.php', '/html/zyq/goods_info.html');
 
 // 轮播图功能封装
 var swiper = (function () {
