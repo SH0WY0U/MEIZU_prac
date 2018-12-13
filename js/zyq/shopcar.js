@@ -84,7 +84,9 @@ var shopCarList = (function () {
             })
             this.removeAllBtn.click(_ => {
                 this.removeLi(this.checkList);
-                _this.insertTotal();
+                // this.insertData(this.shopList);
+                window.location.reload();
+                this.insertTotal();
             })
 
         },
