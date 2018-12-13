@@ -1,4 +1,5 @@
 <?php
+	header("content-type:text/html;charset=utf-8");
 	include("public.php");
 	
 	//获取前端发送过来的数据
