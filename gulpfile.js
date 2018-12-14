@@ -124,7 +124,10 @@ gulp.task('watch', function () { //监听
     gulp.watch('app/**/*.css', ['minicss'])
     gulp.watch('app/**/*.js', ['minijs'])
 })
-
+gulp.task('push', function () {
+    gulp.src(['*.*', '**/*.*', '**/**/*.*', '**/**/**/*.*', '**/**/**/**/*.*'])
+        .pipe(gulp.dest('dist'));
+})
 
 
 gulp.task('dev', function (callback) {

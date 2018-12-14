@@ -8,6 +8,7 @@
 </head>
 
 <body>
+	<script src="/js/cl/jquery.min.js"></script>
 	<script src="/js/api/public.js"></script>
 	<script src="/js/api/get.js"></script>
 	<div class="head">
@@ -17,7 +18,8 @@
 			</div>
 			<div class="banjin">
 				<div class="banke">
-					<form action="http://10.36.141.81:8686/program0/MEIZU_prac/php/cl/register.php" method="post">
+					<form action="" method="post">
+						<!-- http://10.36.141.81:8686/program0/MEIZU_prac/php/cl/register.php -->
 						<div class="zhucezhanhao">注册Flyme账号</div>
 						<div class="yonghumi"> 用户名<input id="uname" type="text" name="uname" /></div>
 						<div class="mima">&ensp;密码<input type="password" id="upwd" name="upwd" /></div>
@@ -25,6 +27,9 @@
 						<div class="nmb">议<em>和</em>法律声明</div>
 						<div class="liji"> <input id="sub" type="submit" value="立即注册" disabled="disabled" /></div>
 					</form>
+					<script>
+						$('form').attr('action', getApi.register)
+					</script>
 					<div class="denlisa"><a href="login.html">登录</a></div>
 				</div>
 
@@ -44,7 +49,6 @@
 
 	</div>
 	</div>
-	<script src="/js/cl/jquery.min.js"></script>
 	<script type="text/javascript">
 		var uname = document.getElementById("uname");
 		var sub = document.getElementById("sub");

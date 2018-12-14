@@ -59,7 +59,7 @@ var verification = (function () {
                 // 获取失败元素
                 // 如果有一个， 证明至少有一个表单没有通过验证
                 var errorInput = $from.querySelector('.bg-danger');
-                if(errorInput) {
+                if (errorInput) {
                     errorInput.parentNode.querySelector('input').focus();
                 } else {
                     console.log('恭喜成功')

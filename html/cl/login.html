@@ -8,6 +8,7 @@
 </head>
 
 <body>
+	<script src="/js/cl/jquery.min.js"></script>
 	<script src="/js/api/public.js"></script>
 	<script src="/js/api/get.js"></script>
 	<div class="head">
@@ -27,8 +28,8 @@
 								<div class="zhongjian"></div>
 								<div class="right">二维码登录</div>
 							</div>
-							<form action="http://10.36.141.81:8686/program0/MEIZU_prac/php/cl/login.php" method="post">
-
+							<form action="" method="post">
+								<!-- http://10.36.141.81:8686/program0/MEIZU_prac/php/cl/login.php -->
 								<div class="yonghumingchen"><input id="uname" type="text" name="uname" placeholder="用户名" /></div>
 
 								<div class="mimadenglu"><input id="password-we" type="password" name="upwd" placeholder="密码" /></div>
@@ -37,6 +38,9 @@
 								<div class="denglu"><input id="sub" type="submit" value="登录" /></div>
 
 							</form>
+							<script>
+								$('form').attr('action', getApi.login)
+							</script>
 							<div class="left-nbo"><a href="register.html">注册</a></div>
 							<div class="right-nji">忘记密码?</div>
 						</div>
