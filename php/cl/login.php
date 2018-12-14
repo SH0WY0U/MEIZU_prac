@@ -1,4 +1,6 @@
 <?php
+    header("Access-Control-Allow-Origin:*");
+
 	header("content-type:text/html;charset=utf-8");
 	include("public.php");
 	
@@ -17,12 +19,12 @@
 	
 	if($row){
 		if($row["upwd"] == $upwd){
-			echo "<script>alert('登录成功');location.href = 'index.html'</script>";
+			echo "<script>alert('登录成功');location.href = 'http://localhost:7777/index.html'</script>";
 		}else{
-			echo "<script>alert('密码有误，请重新登录');location.href = '/html/cl/login.html'</script>";
+			echo "<script>alert('密码有误，请重新登录,测试环节直接跳转首页');location.href = 'http://localhost:7777/index.html'</script>";
 		}
 	}else{
-		echo "<script>alert('用户名有误，请重新登录');location.href = '/html/cl/login.html'</script>";
+		echo "<script>alert('用户名有误，请重新登录,测试环节直接跳转首页');location.href = 'http://localhost:7777/index.html' </script>";
 	}
 	
 ?>

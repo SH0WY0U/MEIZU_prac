@@ -1,4 +1,6 @@
 <?php
+    header("Access-Control-Allow-Origin:*");
+
 	include("public.php");
 	
 	//获取前端发送过来的数据
